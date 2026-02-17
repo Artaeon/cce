@@ -46,6 +46,7 @@ Das Projekt entstand aus einer einfachen Frage: *Ist bedeutungsvolle Sprachgener
 
 CCE modelliert Sprache als physikalischen Phasenübergang in vier Stufen:
 
+<<<<<<< HEAD
 ```mermaid
 graph LR
     A["🌊 Plasma<br/>Konzepte als Hochenergie-Partikel"] --> B["💎 Keimbildung<br/>Semantische Cluster formen Keime"]
@@ -56,6 +57,17 @@ graph LR
     style B fill:#feca57,stroke:#333,color:#333
     style C fill:#48dbfb,stroke:#333,color:#333
     style D fill:#ff9ff3,stroke:#333,color:#333
+=======
+```
+  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+  │  🌊 PLASMA  │───▶│ 💎 KEIMBILD.│───▶│ ❄️ KRISTALL.│───▶│ 📝 REALIS.  │
+  │             │    │             │    │             │    │             │
+  │  Konzepte   │    │  Semantische│    │  Keime      │    │  Kristalle  │
+  │  als HDC-   │    │  Cluster    │    │  wachsen zu │    │  werden zu  │
+  │  Partikel   │    │  formen     │    │  Kristall-  │    │  deutschem  │
+  │  (10.000-d) │    │  Keime      │    │  strukturen │    │  Text       │
+  └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+>>>>>>> 6d5970a (docs: release README with architecture, examples, and philosophy)
 ```
 
 **Plasma** — Eingabekonzepte werden in einen 10.000-dimensionalen Vektorraum projiziert (Hyperdimensional Computing). Temperatur bestimmt die Assoziationsweite.
