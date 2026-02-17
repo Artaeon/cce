@@ -327,6 +327,83 @@ IMAGE_LEXICONS: dict[str, dict] = {
 }
 
 
+# ── Domain-aware translation: abstract KG objects → image-world nouns ──
+# Prevents semantic breaks like "Seine Flammen kennen Tiefe" (Feuer+Tiefe).
+# Each source maps common abstract concepts to domain-appropriate equivalents.
+# Unmapped objects pass through as-is.
+
+_DOMAIN_MAP: dict[str, dict[str, str]] = {
+    "meer":     {"Kraft": "Strömung", "Schmerz": "Salzlast", "Wärme": "Woge",
+                 "Angst": "Abgrund", "Freude": "Glitzern", "Leid": "Brandung",
+                 "Mut": "Fahrt", "Erkenntnis": "Klarheit", "Zerstörung": "Sturmflut",
+                 "Hoffnung": "Horizont", "Vertrauen": "Ankergrund", "Zweifel": "Nebel"},
+    "feuer":    {"Tiefe": "Glut", "Kraft": "Flamme", "Schmerz": "Brand",
+                 "Angst": "Funkenflug", "Freude": "Licht", "Leid": "Asche",
+                 "Mut": "Entfachen", "Erkenntnis": "Helligkeit", "Zerstörung": "Feuersturm",
+                 "Hoffnung": "Glimmen", "Vertrauen": "Herdfeuer", "Zweifel": "Rauch"},
+    "wald":     {"Tiefe": "Wurzelwerk", "Kraft": "Stamm", "Wärme": "Lichtung",
+                 "Schmerz": "Dornen", "Angst": "Dickicht", "Freude": "Vogelruf",
+                 "Leid": "Windbruch", "Mut": "Wachstum", "Erkenntnis": "Waldlicht",
+                 "Zerstörung": "Kahlschlag", "Hoffnung": "Trieb", "Zweifel": "Nebel"},
+    "sturm":    {"Tiefe": "Donner", "Kraft": "Böe", "Wärme": "Windstille",
+                 "Schmerz": "Peitsche", "Angst": "Blitz", "Freude": "Aufklaren",
+                 "Leid": "Verwüstung", "Mut": "Gegenwind", "Erkenntnis": "Stille",
+                 "Zerstörung": "Hagel", "Hoffnung": "Lücke", "Zweifel": "Wirbel"},
+    "eis":      {"Tiefe": "Kristall", "Kraft": "Härte", "Wärme": "Schmelze",
+                 "Schmerz": "Splitter", "Angst": "Kälte", "Freude": "Glanz",
+                 "Leid": "Erstarrung", "Mut": "Brechen", "Erkenntnis": "Klarheit"},
+    "nacht":    {"Tiefe": "Dunkelheit", "Kraft": "Stille", "Wärme": "Mondlicht",
+                 "Schmerz": "Schlaflosigkeit", "Angst": "Schatten", "Freude": "Stern",
+                 "Leid": "Finsternis", "Mut": "Wachen", "Erkenntnis": "Dämmerung"},
+    "sonne":    {"Tiefe": "Kern", "Kraft": "Strahl", "Schmerz": "Hitze",
+                 "Angst": "Finsternis", "Freude": "Wärme", "Leid": "Dürre",
+                 "Mut": "Aufgang", "Erkenntnis": "Licht", "Zerstörung": "Glut"},
+    "wind":     {"Tiefe": "Stille", "Kraft": "Böe", "Wärme": "Föhn",
+                 "Schmerz": "Schnitt", "Angst": "Heulen", "Freude": "Brise",
+                 "Leid": "Kälte", "Mut": "Sturm", "Erkenntnis": "Klarheit"},
+    "berg":     {"Tiefe": "Abgrund", "Kraft": "Fels", "Wärme": "Sonnenseite",
+                 "Schmerz": "Steinschlag", "Angst": "Kluft", "Freude": "Gipfel",
+                 "Leid": "Lawine", "Mut": "Aufstieg", "Erkenntnis": "Weitblick"},
+    "wüste":    {"Tiefe": "Hitze", "Kraft": "Weite", "Wärme": "Glut",
+                 "Schmerz": "Durst", "Angst": "Leere", "Freude": "Oase",
+                 "Leid": "Verdorren", "Mut": "Wanderung", "Erkenntnis": "Fata Morgana"},
+    "wasser":   {"Tiefe": "Grund", "Kraft": "Strömung", "Schmerz": "Strudel",
+                 "Angst": "Trübe", "Freude": "Quelle", "Leid": "Flut",
+                 "Mut": "Durchbruch", "Erkenntnis": "Klarheit"},
+    "fluss":    {"Tiefe": "Grund", "Kraft": "Strömung", "Wärme": "Quellwärme",
+                 "Schmerz": "Strudel", "Angst": "Trübe", "Freude": "Mündung",
+                 "Leid": "Hochwasser", "Mut": "Durchbruch", "Erkenntnis": "Klarheit"},
+    "schatten":  {"Tiefe": "Dunkelheit", "Kraft": "Kühle", "Wärme": "Dämmerung",
+                 "Schmerz": "Kälte", "Angst": "Verschwinden", "Freude": "Schutz",
+                 "Leid": "Finsternis", "Mut": "Hervortreten", "Erkenntnis": "Kontur"},
+    "licht":    {"Tiefe": "Brechung", "Kraft": "Strahl", "Schmerz": "Schatten",
+                 "Angst": "Erlöschen", "Freude": "Glanz", "Leid": "Finsternis",
+                 "Mut": "Leuchten", "Erkenntnis": "Erhellung"},
+    "stein":    {"Tiefe": "Kern", "Kraft": "Härte", "Wärme": "Sonnenwärme",
+                 "Schmerz": "Riss", "Angst": "Abtragung", "Freude": "Schliff",
+                 "Leid": "Erosion", "Mut": "Standhaftigkeit", "Erkenntnis": "Ader"},
+    "stern":    {"Tiefe": "Ferne", "Kraft": "Leuchten", "Wärme": "Glühen",
+                 "Schmerz": "Kälte", "Angst": "Erlöschen", "Freude": "Funkeln",
+                 "Leid": "Verglühen", "Mut": "Aufleuchten", "Erkenntnis": "Licht"},
+    "asche":    {"Tiefe": "Rest", "Kraft": "Wärme", "Schmerz": "Verlust",
+                 "Angst": "Leere", "Freude": "Glimmen", "Leid": "Verlust",
+                 "Mut": "Neubeginn", "Erkenntnis": "Spur"},
+    "himmel":   {"Tiefe": "Weite", "Kraft": "Unendlichkeit", "Schmerz": "Verdunkelung",
+                 "Angst": "Leere", "Freude": "Blau", "Leid": "Gewitter",
+                 "Mut": "Aufklaren", "Erkenntnis": "Horizont"},
+}
+
+
+def _map_to_domain(obj: str, source: str) -> str:
+    """Translate an abstract KG object into domain-appropriate vocabulary.
+
+    Returns the mapped noun if found, otherwise the original object.
+    Example: _map_to_domain("Tiefe", "feuer") → "Glut"
+    """
+    source_map = _DOMAIN_MAP.get(source.lower(), {})
+    return source_map.get(obj, obj)
+
+
 def _cap(s: str) -> str:
     """Capitalize first letter, preserve rest."""
     return s[0].upper() + s[1:] if s else s
@@ -360,6 +437,9 @@ class Metaphor:
         source = _cap(self.source)
         _, s_obj = self.shared_prop
         _, d_obj = self.distinct_prop
+        # Domain-map: translate abstract KG objects into image-world nouns
+        s_obj = _map_to_domain(s_obj, source_lower)
+        d_obj = _map_to_domain(d_obj, source_lower)
         obj_cap = _cap(s_obj)
         d_obj_cap = _cap(d_obj)
 
