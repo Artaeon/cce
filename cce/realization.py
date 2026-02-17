@@ -690,6 +690,16 @@ def realize(
 
     # 1. Metaphor Injection
     metaphor_text = ""
+    # Compute preliminary mood from emotion string for metaphor tinting
+    _pre_mood = "neutral"
+    if emotion:
+        e_low = emotion.lower()
+        if any(w in e_low for w in ("dunkel", "trauer", "angst", "wut", "schmerz")):
+            _pre_mood = "dark"
+        elif any(w in e_low for w in ("freude", "hoffnung", "liebe", "warm")):
+            _pre_mood = "hopeful"
+        elif any(w in e_low for w in ("intensiv", "stark", "wild", "leidenschaft")):
+            _pre_mood = "intense"
     if metaphor_matcher and rng.random() < 0.4:  # 40% chance of metaphor
         # Count main topics
         c_particles = []
@@ -703,7 +713,7 @@ def realize(
             topic = main_topic[0][0]
             metaphor = metaphor_matcher.find_metaphor(topic, rng)
             if metaphor:
-                metaphor_text = metaphor.render_as_denkraum(rng)
+                metaphor_text = metaphor.render_as_denkraum(rng, mood=_pre_mood)
 
     all_words: list[tuple[str, str]] = []
     crystal_emotions: list[float] = []

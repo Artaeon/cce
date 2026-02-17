@@ -404,6 +404,29 @@ def _map_to_domain(obj: str, source: str) -> str:
     return source_map.get(obj, obj)
 
 
+# ── Mood-aware adjective tinting ──
+# When mood is non-neutral, blend mood adjectives with source adjectives.
+# This makes "Stille — ein Wald" sound different in dark vs hopeful contexts.
+
+_MOOD_TINTS: dict[str, list[str]] = {
+    "dark":    ["dunkel", "kalt", "schroff", "stumm", "fahl", "schwer", "trüb", "rau"],
+    "hopeful": ["warm", "licht", "offen", "zart", "klar", "sanft", "leise", "hell"],
+    "intense": ["wild", "brennend", "roh", "scharf", "grell", "heftig", "tief", "laut"],
+}
+
+
+def _pick_adj(lex: dict, mood: str, rng: random.Random) -> str:
+    """Pick an adjective, tinted by mood when available.
+
+    50% chance of mood-tinted adjective for non-neutral moods.
+    Falls back to source-specific lexicon adjectives.
+    """
+    tints = _MOOD_TINTS.get(mood)
+    if tints and rng.random() < 0.5:
+        return rng.choice(tints)
+    return rng.choice(lex["adjectives"])
+
+
 def _cap(s: str) -> str:
     """Capitalize first letter, preserve rest."""
     return s[0].upper() + s[1:] if s else s
@@ -420,11 +443,12 @@ class Metaphor:
         """Render the metaphor as a short poetic sequence (legacy)."""
         return f"{self.target} ist {self.source}."
 
-    def render_as_denkraum(self, rng: random.Random) -> str:
+    def render_as_denkraum(self, rng: random.Random, mood: str = "neutral") -> str:
         """Render the metaphor as an immersive image-world.
 
         Uses IMAGE_LEXICONS to stay inside the source domain's vocabulary.
         Picks from 5 structural templates for variety.
+        Mood tints adjective selection for emotional coloring.
         """
         source_lower = self.source.lower()
         lex = IMAGE_LEXICONS.get(source_lower)
@@ -452,7 +476,7 @@ class Metaphor:
             self._tmpl_inverted,
         ]
         template_fn = rng.choice(templates)
-        return template_fn(target, source, obj_cap, d_obj_cap, lex, rng)
+        return template_fn(target, source, obj_cap, d_obj_cap, lex, rng, mood)
 
     # ── Template 1: Klassisch ──────────────────────────────────────
     # "Freiheit ist ein Meer. Seine Wellen tragen die Weite.
@@ -460,7 +484,7 @@ class Metaphor:
 
     def _tmpl_klassisch(
         self, target: str, source: str, obj: str, d_obj: str,
-        lex: dict, rng: random.Random,
+        lex: dict, rng: random.Random, mood: str = "neutral",
     ) -> str:
         article = _article_for(lex["gender"])
         opening = f"{target} ist {article}{source}"
@@ -473,10 +497,10 @@ class Metaphor:
 
     def _tmpl_apposition(
         self, target: str, source: str, obj: str, d_obj: str,
-        lex: dict, rng: random.Random,
+        lex: dict, rng: random.Random, mood: str = "neutral",
     ) -> str:
         article = _article_for(lex["gender"])
-        adj = rng.choice(lex["adjectives"])
+        adj = _pick_adj(lex, mood, rng)
         noun = rng.choice(lex["nouns"])
         noun_dat_pl = _dative_plural(noun)
         adj_declined = _decline_adj(adj)
@@ -489,10 +513,10 @@ class Metaphor:
 
     def _tmpl_genitiv(
         self, target: str, source: str, obj: str, d_obj: str,
-        lex: dict, rng: random.Random,
+        lex: dict, rng: random.Random, mood: str = "neutral",
     ) -> str:
         noun = rng.choice(lex["nouns"])
-        adj = rng.choice(lex["adjectives"])
+        adj = _pick_adj(lex, mood, rng)
         adj_declined = _decline_adj(adj)
         # "Die [adjective]en [noun-plural] der [target] [verb] [obj]."
         noun_pl = _pluralize(noun)
@@ -505,10 +529,10 @@ class Metaphor:
 
     def _tmpl_wie(
         self, target: str, source: str, obj: str, d_obj: str,
-        lex: dict, rng: random.Random,
+        lex: dict, rng: random.Random, mood: str = "neutral",
     ) -> str:
         article = _article_for(lex["gender"])
-        adj = rng.choice(lex["adjectives"])
+        adj = _pick_adj(lex, mood, rng)
         adj_stem = _decline_adj(adj)
         opening = f"Wie {article}{adj_stem}es {source} trägt {target} {obj} in sich"
         contrast_sent = rng.choice(lex["contrast"]).format(obj=d_obj)
@@ -519,7 +543,7 @@ class Metaphor:
 
     def _tmpl_inverted(
         self, target: str, source: str, obj: str, d_obj: str,
-        lex: dict, rng: random.Random,
+        lex: dict, rng: random.Random, mood: str = "neutral",
     ) -> str:
         article = _article_for(lex["gender"]).strip().capitalize()
         pronoun = _pronoun_for(lex["gender"])
