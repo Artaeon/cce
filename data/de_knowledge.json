@@ -1,0 +1,4982 @@
+[
+  {
+    "subject": "Unternehmer",
+    "relation": "ISA",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Unternehmer",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Unternehmer",
+    "relation": "NEEDS",
+    "object": "Idee"
+  },
+  {
+    "subject": "Unternehmer",
+    "relation": "CAUSES",
+    "object": "Innovation"
+  },
+  {
+    "subject": "Unternehmer",
+    "relation": "NEEDS",
+    "object": "Ausdauer"
+  },
+  {
+    "subject": "Gründer",
+    "relation": "ISA",
+    "object": "Unternehmer"
+  },
+  {
+    "subject": "Gründer",
+    "relation": "NEEDS",
+    "object": "Kapital"
+  },
+  {
+    "subject": "Gründer",
+    "relation": "NEEDS",
+    "object": "Vision"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "OPPOSES",
+    "object": "Gemeinschaft"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "OPPOSES",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "LEADSTO",
+    "object": "Selbsterkenntnis"
+  },
+  {
+    "subject": "Mut",
+    "relation": "OPPOSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Mut",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Mut",
+    "relation": "NEEDS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Mut",
+    "relation": "LEADSTO",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Angst",
+    "relation": "OPPOSES",
+    "object": "Mut"
+  },
+  {
+    "subject": "Angst",
+    "relation": "CAUSES",
+    "object": "Zweifel"
+  },
+  {
+    "subject": "Angst",
+    "relation": "CAUSES",
+    "object": "Lähmung"
+  },
+  {
+    "subject": "Angst",
+    "relation": "CAUSES",
+    "object": "Vorsicht"
+  },
+  {
+    "subject": "Hoffnung",
+    "relation": "OPPOSES",
+    "object": "Verzweiflung"
+  },
+  {
+    "subject": "Hoffnung",
+    "relation": "LEADSTO",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Hoffnung",
+    "relation": "LEADSTO",
+    "object": "Aufbruch"
+  },
+  {
+    "subject": "Hoffnung",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Verzweiflung",
+    "relation": "OPPOSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Verzweiflung",
+    "relation": "CAUSES",
+    "object": "Aufgeben"
+  },
+  {
+    "subject": "Licht",
+    "relation": "OPPOSES",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Dunkelheit",
+    "relation": "OPPOSES",
+    "object": "Licht"
+  },
+  {
+    "subject": "Licht",
+    "relation": "LEADSTO",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Dunkelheit",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Kraft",
+    "relation": "OPPOSES",
+    "object": "Schwäche"
+  },
+  {
+    "subject": "Kraft",
+    "relation": "LEADSTO",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Kraft",
+    "relation": "NEEDS",
+    "object": "Wille"
+  },
+  {
+    "subject": "Stärke",
+    "relation": "OPPOSES",
+    "object": "Schwäche"
+  },
+  {
+    "subject": "Schwäche",
+    "relation": "OPPOSES",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Schwäche",
+    "relation": "LEADSTO",
+    "object": "Demut"
+  },
+  {
+    "subject": "Erfolg",
+    "relation": "NEEDS",
+    "object": "Arbeit"
+  },
+  {
+    "subject": "Erfolg",
+    "relation": "NEEDS",
+    "object": "Ausdauer"
+  },
+  {
+    "subject": "Erfolg",
+    "relation": "OPPOSES",
+    "object": "Misserfolg"
+  },
+  {
+    "subject": "Erfolg",
+    "relation": "LEADSTO",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Misserfolg",
+    "relation": "CAUSES",
+    "object": "Zweifel"
+  },
+  {
+    "subject": "Misserfolg",
+    "relation": "OPPOSES",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Misserfolg",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Quartal",
+    "relation": "HAS",
+    "object": "Zahlen"
+  },
+  {
+    "subject": "Quartal",
+    "relation": "HAS",
+    "object": "Ergebnis"
+  },
+  {
+    "subject": "Quartal",
+    "relation": "PARTOF",
+    "object": "Jahr"
+  },
+  {
+    "subject": "Quartalsbericht",
+    "relation": "HAS",
+    "object": "Zahlen"
+  },
+  {
+    "subject": "Quartalsbericht",
+    "relation": "HAS",
+    "object": "Trend"
+  },
+  {
+    "subject": "Quartalsbericht",
+    "relation": "HAS",
+    "object": "Analyse"
+  },
+  {
+    "subject": "Quartalsbericht",
+    "relation": "CONTEXT",
+    "object": "Wirtschaft"
+  },
+  {
+    "subject": "Bilanz",
+    "relation": "HAS",
+    "object": "Gewinn"
+  },
+  {
+    "subject": "Bilanz",
+    "relation": "HAS",
+    "object": "Verlust"
+  },
+  {
+    "subject": "Bilanz",
+    "relation": "CONTEXT",
+    "object": "Unternehmen"
+  },
+  {
+    "subject": "Wachstum",
+    "relation": "OPPOSES",
+    "object": "Rückgang"
+  },
+  {
+    "subject": "Wachstum",
+    "relation": "NEEDS",
+    "object": "Investition"
+  },
+  {
+    "subject": "Wachstum",
+    "relation": "LEADSTO",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Rückgang",
+    "relation": "OPPOSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Rückgang",
+    "relation": "CAUSES",
+    "object": "Krise"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "NEEDS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "NEEDS",
+    "object": "Risiko"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "NEEDS",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Risiko",
+    "relation": "OPPOSES",
+    "object": "Sicherheit"
+  },
+  {
+    "subject": "Risiko",
+    "relation": "LEADSTO",
+    "object": "Chance"
+  },
+  {
+    "subject": "Risiko",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Chance",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Chance",
+    "relation": "OPPOSES",
+    "object": "Gefahr"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "OPPOSES",
+    "object": "Hass"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Vertrauen",
+    "relation": "OPPOSES",
+    "object": "Misstrauen"
+  },
+  {
+    "subject": "Vertrauen",
+    "relation": "NEEDS",
+    "object": "Ehrlichkeit"
+  },
+  {
+    "subject": "Vertrauen",
+    "relation": "LEADSTO",
+    "object": "Nähe"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "OPPOSES",
+    "object": "Gefangenschaft"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "LEADSTO",
+    "object": "Glück"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "NEEDS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "OPPOSES",
+    "object": "Lüge"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "LEADSTO",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Kampf",
+    "relation": "LEADSTO",
+    "object": "Sieg"
+  },
+  {
+    "subject": "Kampf",
+    "relation": "LEADSTO",
+    "object": "Niederlage"
+  },
+  {
+    "subject": "Kampf",
+    "relation": "NEEDS",
+    "object": "Ausdauer"
+  },
+  {
+    "subject": "Kampf",
+    "relation": "NEEDS",
+    "object": "Wille"
+  },
+  {
+    "subject": "Sieg",
+    "relation": "OPPOSES",
+    "object": "Niederlage"
+  },
+  {
+    "subject": "Niederlage",
+    "relation": "LEADSTO",
+    "object": "Demut"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "CAUSES",
+    "object": "Unsicherheit"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Krise",
+    "relation": "CAUSES",
+    "object": "Wandel"
+  },
+  {
+    "subject": "Krise",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Krise",
+    "relation": "LEADSTO",
+    "object": "Chance"
+  },
+  {
+    "subject": "Krise",
+    "relation": "OPPOSES",
+    "object": "Stabilität"
+  },
+  {
+    "subject": "Krise",
+    "relation": "NEEDS",
+    "object": "Zusammenhalt"
+  },
+  {
+    "subject": "Sehnsucht",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Sehnsucht",
+    "relation": "LEADSTO",
+    "object": "Aufbruch"
+  },
+  {
+    "subject": "Sehnsucht",
+    "relation": "OPPOSES",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Schmerz",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Schmerz",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Schmerz",
+    "relation": "OPPOSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Schmerz",
+    "relation": "NEEDS",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "OPPOSES",
+    "object": "Gewissheit"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "CAUSES",
+    "object": "Unsicherheit"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Entscheidung",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Entscheidung",
+    "relation": "LEADSTO",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Entscheidung",
+    "relation": "CONTEXT",
+    "object": "Führung"
+  },
+  {
+    "subject": "Strategie",
+    "relation": "NEEDS",
+    "object": "Analyse"
+  },
+  {
+    "subject": "Strategie",
+    "relation": "LEADSTO",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Strategie",
+    "relation": "HAS",
+    "object": "Ziel"
+  },
+  {
+    "subject": "Führung",
+    "relation": "NEEDS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Führung",
+    "relation": "NEEDS",
+    "object": "Vision"
+  },
+  {
+    "subject": "Führung",
+    "relation": "LEADSTO",
+    "object": "Einfluss"
+  },
+  {
+    "subject": "Führung",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Mensch",
+    "relation": "HAS",
+    "object": "Seele"
+  },
+  {
+    "subject": "Mensch",
+    "relation": "HAS",
+    "object": "Verstand"
+  },
+  {
+    "subject": "Mensch",
+    "relation": "NEEDS",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Mensch",
+    "relation": "NEEDS",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Mensch",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Recht",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Recht",
+    "relation": "OPPOSES",
+    "object": "Unrecht"
+  },
+  {
+    "subject": "Recht",
+    "relation": "NEEDS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Recht",
+    "relation": "LEADSTO",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Gerechtigkeit",
+    "relation": "OPPOSES",
+    "object": "Ungerechtigkeit"
+  },
+  {
+    "subject": "Gerechtigkeit",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Gerechtigkeit",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Gesetz",
+    "relation": "HAS",
+    "object": "Regel"
+  },
+  {
+    "subject": "Gesetz",
+    "relation": "LEADSTO",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Gesetz",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Rechtsanwalt",
+    "relation": "ISA",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Rechtsanwalt",
+    "relation": "NEEDS",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Rechtsanwalt",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Rechtsanwalt",
+    "relation": "CAUSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Rechtsanwalt",
+    "relation": "HAS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Richter",
+    "relation": "ISA",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Richter",
+    "relation": "NEEDS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Richter",
+    "relation": "CAUSES",
+    "object": "Urteil"
+  },
+  {
+    "subject": "Richter",
+    "relation": "NEEDS",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Technologie",
+    "relation": "LEADSTO",
+    "object": "Fortschritt"
+  },
+  {
+    "subject": "Technologie",
+    "relation": "NEEDS",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Technologie",
+    "relation": "CAUSES",
+    "object": "Wandel"
+  },
+  {
+    "subject": "Technologie",
+    "relation": "OPPOSES",
+    "object": "Tradition"
+  },
+  {
+    "subject": "Computer",
+    "relation": "ISA",
+    "object": "Werkzeug"
+  },
+  {
+    "subject": "Computer",
+    "relation": "NEEDS",
+    "object": "Logik"
+  },
+  {
+    "subject": "Computer",
+    "relation": "CAUSES",
+    "object": "Effizienz"
+  },
+  {
+    "subject": "Intelligenz",
+    "relation": "ISA",
+    "object": "Fähigkeit"
+  },
+  {
+    "subject": "Intelligenz",
+    "relation": "NEEDS",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Intelligenz",
+    "relation": "LEADSTO",
+    "object": "Lösung"
+  },
+  {
+    "subject": "Intelligenz",
+    "relation": "OPPOSES",
+    "object": "Dummheit"
+  },
+  {
+    "subject": "Intelligenz",
+    "relation": "HAS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Künstliche Intelligenz",
+    "relation": "ISA",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Künstliche Intelligenz",
+    "relation": "CAUSES",
+    "object": "Wandel"
+  },
+  {
+    "subject": "Künstliche Intelligenz",
+    "relation": "NEEDS",
+    "object": "Daten"
+  },
+  {
+    "subject": "Wissen",
+    "relation": "OPPOSES",
+    "object": "Unwissenheit"
+  },
+  {
+    "subject": "Wissen",
+    "relation": "LEADSTO",
+    "object": "Macht"
+  },
+  {
+    "subject": "Wissen",
+    "relation": "NEEDS",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Wissen",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "LEADSTO",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "OPPOSES",
+    "object": "Unwissenheit"
+  },
+  {
+    "subject": "Arbeit",
+    "relation": "LEADSTO",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Arbeit",
+    "relation": "NEEDS",
+    "object": "Disziplin"
+  },
+  {
+    "subject": "Arbeit",
+    "relation": "CAUSES",
+    "object": "Müdigkeit"
+  },
+  {
+    "subject": "Arbeit",
+    "relation": "HAS",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Arbeit",
+    "relation": "OPPOSES",
+    "object": "Faulheit"
+  },
+  {
+    "subject": "Arbeiter",
+    "relation": "ISA",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Arbeiter",
+    "relation": "NEEDS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Arbeiter",
+    "relation": "NEEDS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Arbeiter",
+    "relation": "CAUSES",
+    "object": "Wertschöpfung"
+  },
+  {
+    "subject": "Kreativität",
+    "relation": "OPPOSES",
+    "object": "Routine"
+  },
+  {
+    "subject": "Kreativität",
+    "relation": "NEEDS",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Kreativität",
+    "relation": "LEADSTO",
+    "object": "Innovation"
+  },
+  {
+    "subject": "Kreativität",
+    "relation": "NEEDS",
+    "object": "Inspiration"
+  },
+  {
+    "subject": "Natur",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Natur",
+    "relation": "OPPOSES",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Natur",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Natur",
+    "relation": "NEEDS",
+    "object": "Schutz"
+  },
+  {
+    "subject": "Natur",
+    "relation": "LEADSTO",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Wasser",
+    "relation": "CAUSES",
+    "object": "Leben"
+  },
+  {
+    "subject": "Wasser",
+    "relation": "ISA",
+    "object": "Natur"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "OPPOSES",
+    "object": "Wasser"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "CAUSES",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "CAUSES",
+    "object": "Wärme"
+  },
+  {
+    "subject": "Familie",
+    "relation": "HAS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Familie",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Familie",
+    "relation": "CAUSES",
+    "object": "Geborgenheit"
+  },
+  {
+    "subject": "Familie",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Kind",
+    "relation": "ISA",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Kind",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Kind",
+    "relation": "NEEDS",
+    "object": "Schutz"
+  },
+  {
+    "subject": "Kind",
+    "relation": "HAS",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Kind",
+    "relation": "LEADSTO",
+    "object": "Zukunft"
+  },
+  {
+    "subject": "Freundschaft",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Freundschaft",
+    "relation": "NEEDS",
+    "object": "Ehrlichkeit"
+  },
+  {
+    "subject": "Freundschaft",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Freundschaft",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Freundschaft",
+    "relation": "OPPOSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Gesundheit",
+    "relation": "OPPOSES",
+    "object": "Krankheit"
+  },
+  {
+    "subject": "Gesundheit",
+    "relation": "NEEDS",
+    "object": "Bewegung"
+  },
+  {
+    "subject": "Gesundheit",
+    "relation": "LEADSTO",
+    "object": "Lebensfreude"
+  },
+  {
+    "subject": "Krankheit",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Krankheit",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Krankheit",
+    "relation": "NEEDS",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Tod",
+    "relation": "OPPOSES",
+    "object": "Leben"
+  },
+  {
+    "subject": "Tod",
+    "relation": "CAUSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Tod",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Tod",
+    "relation": "LEADSTO",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Leben",
+    "relation": "OPPOSES",
+    "object": "Tod"
+  },
+  {
+    "subject": "Leben",
+    "relation": "HAS",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Leben",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Leben",
+    "relation": "CAUSES",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Leben",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Zeit",
+    "relation": "CAUSES",
+    "object": "Wandel"
+  },
+  {
+    "subject": "Zeit",
+    "relation": "LEADSTO",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Zeit",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Zeit",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Zeit",
+    "relation": "CAUSES",
+    "object": "Vergessen"
+  },
+  {
+    "subject": "Erinnerung",
+    "relation": "OPPOSES",
+    "object": "Vergessen"
+  },
+  {
+    "subject": "Erinnerung",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Erinnerung",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Zukunft",
+    "relation": "OPPOSES",
+    "object": "Vergangenheit"
+  },
+  {
+    "subject": "Zukunft",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Zukunft",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Zukunft",
+    "relation": "NEEDS",
+    "object": "Vision"
+  },
+  {
+    "subject": "Frieden",
+    "relation": "OPPOSES",
+    "object": "Krieg"
+  },
+  {
+    "subject": "Frieden",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Frieden",
+    "relation": "LEADSTO",
+    "object": "Glück"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "OPPOSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "CAUSES",
+    "object": "Leid"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "CAUSES",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "CAUSES",
+    "object": "Tod"
+  },
+  {
+    "subject": "Gesellschaft",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Gesellschaft",
+    "relation": "NEEDS",
+    "object": "Zusammenhalt"
+  },
+  {
+    "subject": "Gesellschaft",
+    "relation": "HAS",
+    "object": "Kultur"
+  },
+  {
+    "subject": "Gesellschaft",
+    "relation": "CAUSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Demokratie",
+    "relation": "NEEDS",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Demokratie",
+    "relation": "NEEDS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Demokratie",
+    "relation": "OPPOSES",
+    "object": "Diktatur"
+  },
+  {
+    "subject": "Demokratie",
+    "relation": "LEADSTO",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "NEEDS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "CAUSES",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Musik",
+    "relation": "ISA",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Musik",
+    "relation": "CAUSES",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Musik",
+    "relation": "LEADSTO",
+    "object": "Harmonie"
+  },
+  {
+    "subject": "Musik",
+    "relation": "NEEDS",
+    "object": "Talent"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "ISA",
+    "object": "Werkzeug"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "CAUSES",
+    "object": "Verständigung"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "HAS",
+    "object": "Macht"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "NEEDS",
+    "object": "Klarheit"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "OPPOSES",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "CAUSES",
+    "object": "Distanz"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Geld",
+    "relation": "OPPOSES",
+    "object": "Armut"
+  },
+  {
+    "subject": "Geld",
+    "relation": "LEADSTO",
+    "object": "Macht"
+  },
+  {
+    "subject": "Geld",
+    "relation": "CAUSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Geld",
+    "relation": "CAUSES",
+    "object": "Neid"
+  },
+  {
+    "subject": "Armut",
+    "relation": "OPPOSES",
+    "object": "Reichtum"
+  },
+  {
+    "subject": "Armut",
+    "relation": "CAUSES",
+    "object": "Leid"
+  },
+  {
+    "subject": "Armut",
+    "relation": "CAUSES",
+    "object": "Hunger"
+  },
+  {
+    "subject": "Macht",
+    "relation": "OPPOSES",
+    "object": "Ohnmacht"
+  },
+  {
+    "subject": "Macht",
+    "relation": "NEEDS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Macht",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Macht",
+    "relation": "LEADSTO",
+    "object": "Einfluss"
+  },
+  {
+    "subject": "Geduld",
+    "relation": "OPPOSES",
+    "object": "Ungeduld"
+  },
+  {
+    "subject": "Geduld",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Geduld",
+    "relation": "NEEDS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Weisheit",
+    "relation": "NEEDS",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Weisheit",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Weisheit",
+    "relation": "OPPOSES",
+    "object": "Dummheit"
+  },
+  {
+    "subject": "Wille",
+    "relation": "LEADSTO",
+    "object": "Handlung"
+  },
+  {
+    "subject": "Wille",
+    "relation": "NEEDS",
+    "object": "Ziel"
+  },
+  {
+    "subject": "Wille",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Glück",
+    "relation": "OPPOSES",
+    "object": "Leid"
+  },
+  {
+    "subject": "Glück",
+    "relation": "NEEDS",
+    "object": "Dankbarkeit"
+  },
+  {
+    "subject": "Glück",
+    "relation": "CAUSES",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Glück",
+    "relation": "LEADSTO",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "OPPOSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "LEADSTO",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "NEEDS",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Freude",
+    "relation": "OPPOSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Freude",
+    "relation": "CAUSES",
+    "object": "Energie"
+  },
+  {
+    "subject": "Freude",
+    "relation": "NEEDS",
+    "object": "Dankbarkeit"
+  },
+  {
+    "subject": "Disziplin",
+    "relation": "OPPOSES",
+    "object": "Chaos"
+  },
+  {
+    "subject": "Disziplin",
+    "relation": "LEADSTO",
+    "object": "Erfolg"
+  },
+  {
+    "subject": "Disziplin",
+    "relation": "NEEDS",
+    "object": "Wille"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "HAS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "CAUSES",
+    "object": "Geborgenheit"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "OPPOSES",
+    "object": "Fremde"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "NEEDS",
+    "object": "Zugehörigkeit"
+  },
+  {
+    "subject": "Reise",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Reise",
+    "relation": "CAUSES",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Reise",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Traum",
+    "relation": "OPPOSES",
+    "object": "Wirklichkeit"
+  },
+  {
+    "subject": "Traum",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Traum",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Traum",
+    "relation": "LEADSTO",
+    "object": "Vision"
+  },
+  {
+    "subject": "Vergebung",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Vergebung",
+    "relation": "NEEDS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Vergebung",
+    "relation": "OPPOSES",
+    "object": "Hass"
+  },
+  {
+    "subject": "Stolz",
+    "relation": "OPPOSES",
+    "object": "Scham"
+  },
+  {
+    "subject": "Stolz",
+    "relation": "NEEDS",
+    "object": "Leistung"
+  },
+  {
+    "subject": "Stolz",
+    "relation": "CAUSES",
+    "object": "Selbstvertrauen"
+  },
+  {
+    "subject": "Scham",
+    "relation": "OPPOSES",
+    "object": "Stolz"
+  },
+  {
+    "subject": "Scham",
+    "relation": "CAUSES",
+    "object": "Schweigen"
+  },
+  {
+    "subject": "Scham",
+    "relation": "CAUSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "NEEDS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "OPPOSES",
+    "object": "Verachtung"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "LEADSTO",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Wirtschaft",
+    "relation": "NEEDS",
+    "object": "Innovation"
+  },
+  {
+    "subject": "Wirtschaft",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Wirtschaft",
+    "relation": "HAS",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Wirtschaft",
+    "relation": "CAUSES",
+    "object": "Wohlstand"
+  },
+  {
+    "subject": "Politik",
+    "relation": "NEEDS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Politik",
+    "relation": "CAUSES",
+    "object": "Wandel"
+  },
+  {
+    "subject": "Politik",
+    "relation": "HAS",
+    "object": "Macht"
+  },
+  {
+    "subject": "Wissenschaft",
+    "relation": "NEEDS",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Wissenschaft",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Wissenschaft",
+    "relation": "OPPOSES",
+    "object": "Aberglaube"
+  },
+  {
+    "subject": "Wissenschaft",
+    "relation": "CAUSES",
+    "object": "Fortschritt"
+  },
+  {
+    "subject": "Philosophie",
+    "relation": "NEEDS",
+    "object": "Zweifel"
+  },
+  {
+    "subject": "Philosophie",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Philosophie",
+    "relation": "HAS",
+    "object": "Fragen"
+  },
+  {
+    "subject": "Religion",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Religion",
+    "relation": "HAS",
+    "object": "Glaube"
+  },
+  {
+    "subject": "Religion",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "OPPOSES",
+    "object": "Zweifel"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Neugier",
+    "relation": "LEADSTO",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Neugier",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Neugier",
+    "relation": "NEEDS",
+    "object": "Offenheit"
+  },
+  {
+    "subject": "Erfahrung",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Erfahrung",
+    "relation": "NEEDS",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Erfahrung",
+    "relation": "CAUSES",
+    "object": "Reife"
+  },
+  {
+    "subject": "Verantwortung",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Verantwortung",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Verantwortung",
+    "relation": "LEADSTO",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Ordnung",
+    "relation": "OPPOSES",
+    "object": "Chaos"
+  },
+  {
+    "subject": "Ordnung",
+    "relation": "NEEDS",
+    "object": "Disziplin"
+  },
+  {
+    "subject": "Ordnung",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Hass",
+    "relation": "OPPOSES",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Hass",
+    "relation": "CAUSES",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Hass",
+    "relation": "CAUSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Angst",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Mut",
+    "relation": "CAUSES",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Leid",
+    "relation": "LEADSTO",
+    "object": "Mitgefühl"
+  },
+  {
+    "subject": "Leid",
+    "relation": "CAUSES",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Leid",
+    "relation": "OPPOSES",
+    "object": "Glück"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "NEEDS",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "LEADSTO",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Kultur",
+    "relation": "HAS",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Kultur",
+    "relation": "HAS",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Kultur",
+    "relation": "NEEDS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Tradition",
+    "relation": "OPPOSES",
+    "object": "Fortschritt"
+  },
+  {
+    "subject": "Tradition",
+    "relation": "HAS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Tradition",
+    "relation": "CAUSES",
+    "object": "Identität"
+  },
+  {
+    "subject": "Identität",
+    "relation": "NEEDS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Identität",
+    "relation": "HAS",
+    "object": "Kultur"
+  },
+  {
+    "subject": "Identität",
+    "relation": "OPPOSES",
+    "object": "Entfremdung"
+  },
+  {
+    "subject": "Wald",
+    "relation": "HAS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Wald",
+    "relation": "CAUSES",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Wald",
+    "relation": "OPPOSES",
+    "object": "Lärm"
+  },
+  {
+    "subject": "Wald",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Wald",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Wald",
+    "relation": "HAS",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Meer",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Meer",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Meer",
+    "relation": "OPPOSES",
+    "object": "Enge"
+  },
+  {
+    "subject": "Meer",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Meer",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Meer",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "OPPOSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "LEADSTO",
+    "object": "Klarheit"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Sturm",
+    "relation": "HAS",
+    "object": "Energie"
+  },
+  {
+    "subject": "Berg",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Berg",
+    "relation": "NEEDS",
+    "object": "Ausdauer"
+  },
+  {
+    "subject": "Berg",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Berg",
+    "relation": "HAS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Berg",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Berg",
+    "relation": "OPPOSES",
+    "object": "Bequemlichkeit"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "CAUSES",
+    "object": "Bewegung"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "LEADSTO",
+    "object": "Meer"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Fluss",
+    "relation": "NEEDS",
+    "object": "Quelle"
+  },
+  {
+    "subject": "Erde",
+    "relation": "HAS",
+    "object": "Leben"
+  },
+  {
+    "subject": "Erde",
+    "relation": "NEEDS",
+    "object": "Wasser"
+  },
+  {
+    "subject": "Erde",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Erde",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Erde",
+    "relation": "HAS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Sonne",
+    "relation": "CAUSES",
+    "object": "Licht"
+  },
+  {
+    "subject": "Sonne",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Sonne",
+    "relation": "OPPOSES",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Sonne",
+    "relation": "HAS",
+    "object": "Wärme"
+  },
+  {
+    "subject": "Sonne",
+    "relation": "LEADSTO",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "CAUSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "HAS",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "OPPOSES",
+    "object": "Sonne"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "LEADSTO",
+    "object": "Traum"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Nacht",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "LEADSTO",
+    "object": "Asche"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "NEEDS",
+    "object": "Luft"
+  },
+  {
+    "subject": "Feuer",
+    "relation": "CAUSES",
+    "object": "Licht"
+  },
+  {
+    "subject": "Wind",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Wind",
+    "relation": "OPPOSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Wind",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Wind",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Wind",
+    "relation": "LEADSTO",
+    "object": "Bewegung"
+  },
+  {
+    "subject": "Regen",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Regen",
+    "relation": "CAUSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Regen",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Regen",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Regen",
+    "relation": "HAS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "NEEDS",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "CONTEXT",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "LEADSTO",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Dichtung",
+    "relation": "OPPOSES",
+    "object": "Lüge"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "HAS",
+    "object": "Bewegung"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "CONTEXT",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Tanz",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Malerei",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Malerei",
+    "relation": "NEEDS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Malerei",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Malerei",
+    "relation": "CONTEXT",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Malerei",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Gesang",
+    "relation": "CAUSES",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Gesang",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Gesang",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Gesang",
+    "relation": "CONTEXT",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Gesang",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Theater",
+    "relation": "CAUSES",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Theater",
+    "relation": "NEEDS",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Theater",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Theater",
+    "relation": "CONTEXT",
+    "object": "Kunst"
+  },
+  {
+    "subject": "Theater",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "CAUSES",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "NEEDS",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "HAS",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "CONTEXT",
+    "object": "Kultur"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Literatur",
+    "relation": "OPPOSES",
+    "object": "Unwissenheit"
+  },
+  {
+    "subject": "Gerechtigkeit",
+    "relation": "CAUSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "CAUSES",
+    "object": "Zusammenhalt"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "NEEDS",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Solidarität",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Gleichheit",
+    "relation": "OPPOSES",
+    "object": "Ungerechtigkeit"
+  },
+  {
+    "subject": "Gleichheit",
+    "relation": "NEEDS",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Gleichheit",
+    "relation": "CAUSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Gleichheit",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Gleichheit",
+    "relation": "LEADSTO",
+    "object": "Würde"
+  },
+  {
+    "subject": "Armut",
+    "relation": "OPPOSES",
+    "object": "Würde"
+  },
+  {
+    "subject": "Armut",
+    "relation": "NEEDS",
+    "object": "Solidarität"
+  },
+  {
+    "subject": "Armut",
+    "relation": "LEADSTO",
+    "object": "Verzweiflung"
+  },
+  {
+    "subject": "Toleranz",
+    "relation": "NEEDS",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Toleranz",
+    "relation": "OPPOSES",
+    "object": "Hass"
+  },
+  {
+    "subject": "Toleranz",
+    "relation": "CAUSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Toleranz",
+    "relation": "LEADSTO",
+    "object": "Verständigung"
+  },
+  {
+    "subject": "Toleranz",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "OPPOSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "CAUSES",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Migration",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Migration",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Migration",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Migration",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Migration",
+    "relation": "HAS",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Erziehung",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Erziehung",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Erziehung",
+    "relation": "LEADSTO",
+    "object": "Reife"
+  },
+  {
+    "subject": "Erziehung",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Erziehung",
+    "relation": "HAS",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Algorithmus",
+    "relation": "ISA",
+    "object": "Werkzeug"
+  },
+  {
+    "subject": "Algorithmus",
+    "relation": "NEEDS",
+    "object": "Logik"
+  },
+  {
+    "subject": "Algorithmus",
+    "relation": "CAUSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Algorithmus",
+    "relation": "OPPOSES",
+    "object": "Chaos"
+  },
+  {
+    "subject": "Algorithmus",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Netzwerk",
+    "relation": "CAUSES",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Netzwerk",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Netzwerk",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Netzwerk",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Netzwerk",
+    "relation": "LEADSTO",
+    "object": "Gemeinschaft"
+  },
+  {
+    "subject": "Maschine",
+    "relation": "ISA",
+    "object": "Werkzeug"
+  },
+  {
+    "subject": "Maschine",
+    "relation": "NEEDS",
+    "object": "Energie"
+  },
+  {
+    "subject": "Maschine",
+    "relation": "CAUSES",
+    "object": "Effizienz"
+  },
+  {
+    "subject": "Maschine",
+    "relation": "OPPOSES",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Maschine",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Code",
+    "relation": "ISA",
+    "object": "Sprache"
+  },
+  {
+    "subject": "Code",
+    "relation": "NEEDS",
+    "object": "Logik"
+  },
+  {
+    "subject": "Code",
+    "relation": "CAUSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Code",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Code",
+    "relation": "LEADSTO",
+    "object": "Innovation"
+  },
+  {
+    "subject": "Simulation",
+    "relation": "ISA",
+    "object": "Werkzeug"
+  },
+  {
+    "subject": "Simulation",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Simulation",
+    "relation": "OPPOSES",
+    "object": "Wirklichkeit"
+  },
+  {
+    "subject": "Simulation",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Simulation",
+    "relation": "NEEDS",
+    "object": "Daten"
+  },
+  {
+    "subject": "Automatisierung",
+    "relation": "CAUSES",
+    "object": "Effizienz"
+  },
+  {
+    "subject": "Automatisierung",
+    "relation": "OPPOSES",
+    "object": "Handlung"
+  },
+  {
+    "subject": "Automatisierung",
+    "relation": "LEADSTO",
+    "object": "Fortschritt"
+  },
+  {
+    "subject": "Automatisierung",
+    "relation": "CONTEXT",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Automatisierung",
+    "relation": "NEEDS",
+    "object": "Wissen"
+  },
+  {
+    "subject": "Schmerz",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Atem",
+    "relation": "ISA",
+    "object": "Leben"
+  },
+  {
+    "subject": "Atem",
+    "relation": "CAUSES",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Atem",
+    "relation": "OPPOSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Atem",
+    "relation": "CONTEXT",
+    "object": "Körper"
+  },
+  {
+    "subject": "Atem",
+    "relation": "NEEDS",
+    "object": "Luft"
+  },
+  {
+    "subject": "Atem",
+    "relation": "LEADSTO",
+    "object": "Klarheit"
+  },
+  {
+    "subject": "Schlaf",
+    "relation": "CAUSES",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Schlaf",
+    "relation": "NEEDS",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Schlaf",
+    "relation": "OPPOSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Schlaf",
+    "relation": "HAS",
+    "object": "Traum"
+  },
+  {
+    "subject": "Schlaf",
+    "relation": "LEADSTO",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Berührung",
+    "relation": "CAUSES",
+    "object": "Nähe"
+  },
+  {
+    "subject": "Berührung",
+    "relation": "CAUSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Berührung",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Berührung",
+    "relation": "OPPOSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Berührung",
+    "relation": "CONTEXT",
+    "object": "Körper"
+  },
+  {
+    "subject": "Hunger",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Hunger",
+    "relation": "OPPOSES",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Hunger",
+    "relation": "NEEDS",
+    "object": "Nahrung"
+  },
+  {
+    "subject": "Hunger",
+    "relation": "LEADSTO",
+    "object": "Verzweiflung"
+  },
+  {
+    "subject": "Träne",
+    "relation": "CAUSES",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Träne",
+    "relation": "ISA",
+    "object": "Ausdruck"
+  },
+  {
+    "subject": "Träne",
+    "relation": "CONTEXT",
+    "object": "Körper"
+  },
+  {
+    "subject": "Träne",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Träne",
+    "relation": "LEADSTO",
+    "object": "Erleichterung"
+  },
+  {
+    "subject": "Herzschlag",
+    "relation": "ISA",
+    "object": "Leben"
+  },
+  {
+    "subject": "Herzschlag",
+    "relation": "CAUSES",
+    "object": "Bewegung"
+  },
+  {
+    "subject": "Herzschlag",
+    "relation": "CONTEXT",
+    "object": "Körper"
+  },
+  {
+    "subject": "Herzschlag",
+    "relation": "OPPOSES",
+    "object": "Tod"
+  },
+  {
+    "subject": "Herzschlag",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Stimme",
+    "relation": "CAUSES",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Stimme",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Stimme",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Stimme",
+    "relation": "CONTEXT",
+    "object": "Körper"
+  },
+  {
+    "subject": "Stimme",
+    "relation": "OPPOSES",
+    "object": "Schweigen"
+  },
+  {
+    "subject": "Vergangenheit",
+    "relation": "CAUSES",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Vergangenheit",
+    "relation": "OPPOSES",
+    "object": "Zukunft"
+  },
+  {
+    "subject": "Vergangenheit",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Zukunft",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Augenblick",
+    "relation": "HAS",
+    "object": "Ewigkeit"
+  },
+  {
+    "subject": "Augenblick",
+    "relation": "OPPOSES",
+    "object": "Ewigkeit"
+  },
+  {
+    "subject": "Augenblick",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Augenblick",
+    "relation": "NEEDS",
+    "object": "Aufmerksamkeit"
+  },
+  {
+    "subject": "Augenblick",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Ewigkeit",
+    "relation": "OPPOSES",
+    "object": "Augenblick"
+  },
+  {
+    "subject": "Ewigkeit",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Ewigkeit",
+    "relation": "HAS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Ewigkeit",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Ewigkeit",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Alter",
+    "relation": "CAUSES",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Alter",
+    "relation": "CAUSES",
+    "object": "Verlust"
+  },
+  {
+    "subject": "Alter",
+    "relation": "HAS",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Alter",
+    "relation": "OPPOSES",
+    "object": "Jugend"
+  },
+  {
+    "subject": "Alter",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Alter",
+    "relation": "LEADSTO",
+    "object": "Reife"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "CAUSES",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "OPPOSES",
+    "object": "Alter"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "NEEDS",
+    "object": "Führung"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "LEADSTO",
+    "object": "Reife"
+  },
+  {
+    "subject": "Jugend",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "CAUSES",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "CAUSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "OPPOSES",
+    "object": "Ewigkeit"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Vergänglichkeit",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "ISA",
+    "object": "Anfang"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "OPPOSES",
+    "object": "Tod"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "HAS",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Geburt",
+    "relation": "CONTEXT",
+    "object": "Leben"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "CAUSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Abschied",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Imagination",
+    "relation": "CAUSES",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Imagination",
+    "relation": "OPPOSES",
+    "object": "Logik"
+  },
+  {
+    "subject": "Imagination",
+    "relation": "NEEDS",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Imagination",
+    "relation": "LEADSTO",
+    "object": "Innovation"
+  },
+  {
+    "subject": "Imagination",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Intuition",
+    "relation": "OPPOSES",
+    "object": "Logik"
+  },
+  {
+    "subject": "Intuition",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Intuition",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Intuition",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Intuition",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Bewusstsein",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Bewusstsein",
+    "relation": "NEEDS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Bewusstsein",
+    "relation": "OPPOSES",
+    "object": "Unwissenheit"
+  },
+  {
+    "subject": "Bewusstsein",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Bewusstsein",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Meditation",
+    "relation": "CAUSES",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Meditation",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Meditation",
+    "relation": "OPPOSES",
+    "object": "Unruhe"
+  },
+  {
+    "subject": "Meditation",
+    "relation": "LEADSTO",
+    "object": "Klarheit"
+  },
+  {
+    "subject": "Meditation",
+    "relation": "CONTEXT",
+    "object": "Geist"
+  },
+  {
+    "subject": "Gedächtnis",
+    "relation": "HAS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Gedächtnis",
+    "relation": "CAUSES",
+    "object": "Identität"
+  },
+  {
+    "subject": "Gedächtnis",
+    "relation": "OPPOSES",
+    "object": "Vergessen"
+  },
+  {
+    "subject": "Gedächtnis",
+    "relation": "NEEDS",
+    "object": "Aufmerksamkeit"
+  },
+  {
+    "subject": "Gedächtnis",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "LEADSTO",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Freiheit",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Würde",
+    "relation": "NEEDS",
+    "object": "Respekt"
+  },
+  {
+    "subject": "Würde",
+    "relation": "OPPOSES",
+    "object": "Verachtung"
+  },
+  {
+    "subject": "Würde",
+    "relation": "CAUSES",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Würde",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Schuld",
+    "relation": "CAUSES",
+    "object": "Scham"
+  },
+  {
+    "subject": "Schuld",
+    "relation": "NEEDS",
+    "object": "Vergebung"
+  },
+  {
+    "subject": "Schuld",
+    "relation": "LEADSTO",
+    "object": "Reife"
+  },
+  {
+    "subject": "Schuld",
+    "relation": "OPPOSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Schuld",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Vergebung",
+    "relation": "CAUSES",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Vergebung",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Opfer",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Opfer",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Opfer",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Opfer",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Opfer",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Schicksal",
+    "relation": "OPPOSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Schicksal",
+    "relation": "CAUSES",
+    "object": "Demut"
+  },
+  {
+    "subject": "Schicksal",
+    "relation": "HAS",
+    "object": "Geheimnis"
+  },
+  {
+    "subject": "Schicksal",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Schicksal",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Glück",
+    "relation": "CAUSES",
+    "object": "Dankbarkeit"
+  },
+  {
+    "subject": "Glück",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Glück",
+    "relation": "LEADSTO",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "OPPOSES",
+    "object": "Schweigen"
+  },
+  {
+    "subject": "Sprache",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "CAUSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Schweigen",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Wort",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Wort",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Wort",
+    "relation": "NEEDS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Wort",
+    "relation": "OPPOSES",
+    "object": "Schweigen"
+  },
+  {
+    "subject": "Wort",
+    "relation": "LEADSTO",
+    "object": "Verständigung"
+  },
+  {
+    "subject": "Dialog",
+    "relation": "NEEDS",
+    "object": "Respekt"
+  },
+  {
+    "subject": "Dialog",
+    "relation": "CAUSES",
+    "object": "Verständigung"
+  },
+  {
+    "subject": "Dialog",
+    "relation": "OPPOSES",
+    "object": "Gewalt"
+  },
+  {
+    "subject": "Dialog",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Dialog",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Gewissen",
+    "relation": "CAUSES",
+    "object": "Schuld"
+  },
+  {
+    "subject": "Gewissen",
+    "relation": "NEEDS",
+    "object": "Ehrlichkeit"
+  },
+  {
+    "subject": "Gewissen",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Gewissen",
+    "relation": "OPPOSES",
+    "object": "Lüge"
+  },
+  {
+    "subject": "Gewissen",
+    "relation": "LEADSTO",
+    "object": "Reife"
+  },
+  {
+    "subject": "Pflicht",
+    "relation": "OPPOSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Pflicht",
+    "relation": "NEEDS",
+    "object": "Disziplin"
+  },
+  {
+    "subject": "Pflicht",
+    "relation": "CAUSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Pflicht",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Pflicht",
+    "relation": "CONTEXT",
+    "object": "Gesellschaft"
+  },
+  {
+    "subject": "Ehre",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Ehre",
+    "relation": "CAUSES",
+    "object": "Respekt"
+  },
+  {
+    "subject": "Ehre",
+    "relation": "OPPOSES",
+    "object": "Scham"
+  },
+  {
+    "subject": "Ehre",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Ehre",
+    "relation": "LEADSTO",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Stille",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Stille",
+    "relation": "OPPOSES",
+    "object": "Lärm"
+  },
+  {
+    "subject": "Stille",
+    "relation": "NEEDS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Stille",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Stille",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Geheimnis",
+    "relation": "CAUSES",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Geheimnis",
+    "relation": "OPPOSES",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Geheimnis",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Geheimnis",
+    "relation": "NEEDS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Geheimnis",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Rhythmus",
+    "relation": "ISA",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Rhythmus",
+    "relation": "CAUSES",
+    "object": "Harmonie"
+  },
+  {
+    "subject": "Rhythmus",
+    "relation": "OPPOSES",
+    "object": "Chaos"
+  },
+  {
+    "subject": "Rhythmus",
+    "relation": "CONTEXT",
+    "object": "Musik"
+  },
+  {
+    "subject": "Rhythmus",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Schatten",
+    "relation": "OPPOSES",
+    "object": "Licht"
+  },
+  {
+    "subject": "Schatten",
+    "relation": "NEEDS",
+    "object": "Licht"
+  },
+  {
+    "subject": "Schatten",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Schatten",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Schatten",
+    "relation": "CONTEXT",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Erneuerung",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Erneuerung",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Erneuerung",
+    "relation": "OPPOSES",
+    "object": "Stillstand"
+  },
+  {
+    "subject": "Erneuerung",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Tiefe",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Tiefe",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Tiefe",
+    "relation": "OPPOSES",
+    "object": "Oberfläche"
+  },
+  {
+    "subject": "Tiefe",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Tiefe",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Quelle",
+    "relation": "CAUSES",
+    "object": "Leben"
+  },
+  {
+    "subject": "Quelle",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Quelle",
+    "relation": "LEADSTO",
+    "object": "Fluss"
+  },
+  {
+    "subject": "Quelle",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Asche",
+    "relation": "CAUSES",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Asche",
+    "relation": "ISA",
+    "object": "Ende"
+  },
+  {
+    "subject": "Asche",
+    "relation": "LEADSTO",
+    "object": "Geburt"
+  },
+  {
+    "subject": "Asche",
+    "relation": "OPPOSES",
+    "object": "Feuer"
+  },
+  {
+    "subject": "Anfang",
+    "relation": "OPPOSES",
+    "object": "Ende"
+  },
+  {
+    "subject": "Anfang",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Anfang",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Anfang",
+    "relation": "HAS",
+    "object": "Angst"
+  },
+  {
+    "subject": "Anfang",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Ende",
+    "relation": "OPPOSES",
+    "object": "Anfang"
+  },
+  {
+    "subject": "Ende",
+    "relation": "CAUSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Ende",
+    "relation": "LEADSTO",
+    "object": "Anfang"
+  },
+  {
+    "subject": "Ende",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Gewalt",
+    "relation": "OPPOSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Gewalt",
+    "relation": "CAUSES",
+    "object": "Leid"
+  },
+  {
+    "subject": "Gewalt",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Gewalt",
+    "relation": "OPPOSES",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Gewalt",
+    "relation": "LEADSTO",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Spiel",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Spiel",
+    "relation": "NEEDS",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Spiel",
+    "relation": "OPPOSES",
+    "object": "Pflicht"
+  },
+  {
+    "subject": "Spiel",
+    "relation": "HAS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Spiel",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Gnade",
+    "relation": "OPPOSES",
+    "object": "Gerechtigkeit"
+  },
+  {
+    "subject": "Gnade",
+    "relation": "CAUSES",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Gnade",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Gnade",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Gnade",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Liebe",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Hass",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Hass",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Hass",
+    "relation": "NEEDS",
+    "object": "Vergebung"
+  },
+  {
+    "subject": "Angst",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Angst",
+    "relation": "LEADSTO",
+    "object": "Lähmung"
+  },
+  {
+    "subject": "Angst",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Angst",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Mut",
+    "relation": "ISA",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Mut",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Trauer",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Freude",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Freude",
+    "relation": "CAUSES",
+    "object": "Licht"
+  },
+  {
+    "subject": "Hoffnung",
+    "relation": "CAUSES",
+    "object": "Mut"
+  },
+  {
+    "subject": "Verzweiflung",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Verzweiflung",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Verzweiflung",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Einsamkeit",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Weisheit",
+    "relation": "CAUSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Weisheit",
+    "relation": "HAS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Wissen",
+    "relation": "CAUSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Erfahrung",
+    "relation": "HAS",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Erkenntnis",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Erkenntnis",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Erkenntnis",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Tod",
+    "relation": "HAS",
+    "object": "Würde"
+  },
+  {
+    "subject": "Tod",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Leben",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Macht",
+    "relation": "CAUSES",
+    "object": "Verantwortung"
+  },
+  {
+    "subject": "Macht",
+    "relation": "NEEDS",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Macht",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Ohnmacht",
+    "relation": "CAUSES",
+    "object": "Verzweiflung"
+  },
+  {
+    "subject": "Ohnmacht",
+    "relation": "OPPOSES",
+    "object": "Macht"
+  },
+  {
+    "subject": "Ohnmacht",
+    "relation": "NEEDS",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Kreativität",
+    "relation": "CAUSES",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Innovation",
+    "relation": "OPPOSES",
+    "object": "Tradition"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "NEEDS",
+    "object": "Hass"
+  },
+  {
+    "subject": "Krieg",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Frieden",
+    "relation": "CAUSES",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Frieden",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Vertrauen",
+    "relation": "CAUSES",
+    "object": "Nähe"
+  },
+  {
+    "subject": "Vertrauen",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Misstrauen",
+    "relation": "CAUSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Misstrauen",
+    "relation": "OPPOSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Identität",
+    "relation": "CAUSES",
+    "object": "Zugehörigkeit"
+  },
+  {
+    "subject": "Identität",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Musik",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Musik",
+    "relation": "NEEDS",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Musik",
+    "relation": "OPPOSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Musik",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Kunst",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Zärtlichkeit",
+    "relation": "ISA",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Zärtlichkeit",
+    "relation": "CAUSES",
+    "object": "Nähe"
+  },
+  {
+    "subject": "Zärtlichkeit",
+    "relation": "OPPOSES",
+    "object": "Gewalt"
+  },
+  {
+    "subject": "Zärtlichkeit",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Zärtlichkeit",
+    "relation": "NEEDS",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Reue",
+    "relation": "CAUSES",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Reue",
+    "relation": "NEEDS",
+    "object": "Ehrlichkeit"
+  },
+  {
+    "subject": "Reue",
+    "relation": "LEADSTO",
+    "object": "Vergebung"
+  },
+  {
+    "subject": "Reue",
+    "relation": "HAS",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Reue",
+    "relation": "OPPOSES",
+    "object": "Stolz"
+  },
+  {
+    "subject": "Ehrfurcht",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Ehrfurcht",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Ehrfurcht",
+    "relation": "OPPOSES",
+    "object": "Verachtung"
+  },
+  {
+    "subject": "Ehrfurcht",
+    "relation": "LEADSTO",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Ehrfurcht",
+    "relation": "CONTEXT",
+    "object": "Religion"
+  },
+  {
+    "subject": "Melancholie",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Melancholie",
+    "relation": "CAUSES",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Melancholie",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Melancholie",
+    "relation": "OPPOSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Melancholie",
+    "relation": "NEEDS",
+    "object": "Stille"
+  },
+  {
+    "subject": "Nostalgie",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Nostalgie",
+    "relation": "HAS",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Nostalgie",
+    "relation": "NEEDS",
+    "object": "Erinnerung"
+  },
+  {
+    "subject": "Nostalgie",
+    "relation": "CONTEXT",
+    "object": "Vergangenheit"
+  },
+  {
+    "subject": "Nostalgie",
+    "relation": "OPPOSES",
+    "object": "Zukunft"
+  },
+  {
+    "subject": "Ekstase",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Ekstase",
+    "relation": "OPPOSES",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Ekstase",
+    "relation": "CAUSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Ekstase",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Ekstase",
+    "relation": "LEADSTO",
+    "object": "Erschöpfung"
+  },
+  {
+    "subject": "Paradox",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Paradox",
+    "relation": "OPPOSES",
+    "object": "Logik"
+  },
+  {
+    "subject": "Paradox",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Paradox",
+    "relation": "CONTEXT",
+    "object": "Philosophie"
+  },
+  {
+    "subject": "Paradox",
+    "relation": "NEEDS",
+    "object": "Offenheit"
+  },
+  {
+    "subject": "Dialektik",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Dialektik",
+    "relation": "NEEDS",
+    "object": "Widerspruch"
+  },
+  {
+    "subject": "Dialektik",
+    "relation": "LEADSTO",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Dialektik",
+    "relation": "CONTEXT",
+    "object": "Philosophie"
+  },
+  {
+    "subject": "Widerspruch",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Widerspruch",
+    "relation": "OPPOSES",
+    "object": "Harmonie"
+  },
+  {
+    "subject": "Widerspruch",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Widerspruch",
+    "relation": "LEADSTO",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Absurdität",
+    "relation": "OPPOSES",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Absurdität",
+    "relation": "CAUSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Absurdität",
+    "relation": "HAS",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Absurdität",
+    "relation": "CONTEXT",
+    "object": "Philosophie"
+  },
+  {
+    "subject": "Absurdität",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Natur",
+    "relation": "OPPOSES",
+    "object": "Technologie"
+  },
+  {
+    "subject": "Natur",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Sterne",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Sterne",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Sterne",
+    "relation": "OPPOSES",
+    "object": "Dunkelheit"
+  },
+  {
+    "subject": "Sterne",
+    "relation": "CONTEXT",
+    "object": "Nacht"
+  },
+  {
+    "subject": "Sterne",
+    "relation": "LEADSTO",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Blume",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Blume",
+    "relation": "ISA",
+    "object": "Vergänglichkeit"
+  },
+  {
+    "subject": "Blume",
+    "relation": "NEEDS",
+    "object": "Licht"
+  },
+  {
+    "subject": "Blume",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Blume",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Stein",
+    "relation": "HAS",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Stein",
+    "relation": "OPPOSES",
+    "object": "Wasser"
+  },
+  {
+    "subject": "Stein",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Stein",
+    "relation": "ISA",
+    "object": "Dauer"
+  },
+  {
+    "subject": "Schnee",
+    "relation": "CAUSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Schnee",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Schnee",
+    "relation": "OPPOSES",
+    "object": "Wärme"
+  },
+  {
+    "subject": "Schnee",
+    "relation": "CONTEXT",
+    "object": "Natur"
+  },
+  {
+    "subject": "Schnee",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Frühling",
+    "relation": "CAUSES",
+    "object": "Hoffnung"
+  },
+  {
+    "subject": "Frühling",
+    "relation": "OPPOSES",
+    "object": "Winter"
+  },
+  {
+    "subject": "Frühling",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Frühling",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Frühling",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Winter",
+    "relation": "CAUSES",
+    "object": "Stille"
+  },
+  {
+    "subject": "Winter",
+    "relation": "OPPOSES",
+    "object": "Frühling"
+  },
+  {
+    "subject": "Winter",
+    "relation": "HAS",
+    "object": "Kälte"
+  },
+  {
+    "subject": "Winter",
+    "relation": "CONTEXT",
+    "object": "Zeit"
+  },
+  {
+    "subject": "Winter",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Horizont",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Horizont",
+    "relation": "HAS",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Horizont",
+    "relation": "OPPOSES",
+    "object": "Enge"
+  },
+  {
+    "subject": "Horizont",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Seele",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Seele",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Seele",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Seele",
+    "relation": "OPPOSES",
+    "object": "Leere"
+  },
+  {
+    "subject": "Seele",
+    "relation": "CONTEXT",
+    "object": "Mensch"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "CAUSES",
+    "object": "Zugehörigkeit"
+  },
+  {
+    "subject": "Heimat",
+    "relation": "NEEDS",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "CAUSES",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "NEEDS",
+    "object": "Neugier"
+  },
+  {
+    "subject": "Bildung",
+    "relation": "LEADSTO",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Lachen",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Lachen",
+    "relation": "OPPOSES",
+    "object": "Trauer"
+  },
+  {
+    "subject": "Lachen",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Lachen",
+    "relation": "NEEDS",
+    "object": "Leichtigkeit"
+  },
+  {
+    "subject": "Lachen",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Wahrheit",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Lüge",
+    "relation": "OPPOSES",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Lüge",
+    "relation": "CAUSES",
+    "object": "Misstrauen"
+  },
+  {
+    "subject": "Lüge",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Dankbarkeit",
+    "relation": "CAUSES",
+    "object": "Freude"
+  },
+  {
+    "subject": "Dankbarkeit",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Dankbarkeit",
+    "relation": "OPPOSES",
+    "object": "Neid"
+  },
+  {
+    "subject": "Dankbarkeit",
+    "relation": "LEADSTO",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Dankbarkeit",
+    "relation": "HAS",
+    "object": "Wärme"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "NEEDS",
+    "object": "Empathie"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "CAUSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Respekt",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Sinn",
+    "relation": "NEEDS",
+    "object": "Suche"
+  },
+  {
+    "subject": "Sinn",
+    "relation": "CAUSES",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Sinn",
+    "relation": "OPPOSES",
+    "object": "Leere"
+  },
+  {
+    "subject": "Sinn",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Sinn",
+    "relation": "LEADSTO",
+    "object": "Erfüllung"
+  },
+  {
+    "subject": "Eifersucht",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Eifersucht",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Eifersucht",
+    "relation": "OPPOSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Eifersucht",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Eifersucht",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Gier",
+    "relation": "OPPOSES",
+    "object": "Zufriedenheit"
+  },
+  {
+    "subject": "Gier",
+    "relation": "CAUSES",
+    "object": "Leid"
+  },
+  {
+    "subject": "Gier",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Gier",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Zorn",
+    "relation": "ISA",
+    "object": "Emotion"
+  },
+  {
+    "subject": "Zorn",
+    "relation": "OPPOSES",
+    "object": "Geduld"
+  },
+  {
+    "subject": "Zorn",
+    "relation": "CAUSES",
+    "object": "Zerstörung"
+  },
+  {
+    "subject": "Zorn",
+    "relation": "NEEDS",
+    "object": "Vergebung"
+  },
+  {
+    "subject": "Zorn",
+    "relation": "LEADSTO",
+    "object": "Reue"
+  },
+  {
+    "subject": "Sanftmut",
+    "relation": "OPPOSES",
+    "object": "Gewalt"
+  },
+  {
+    "subject": "Sanftmut",
+    "relation": "CAUSES",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Sanftmut",
+    "relation": "NEEDS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Sanftmut",
+    "relation": "HAS",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Treue",
+    "relation": "NEEDS",
+    "object": "Liebe"
+  },
+  {
+    "subject": "Treue",
+    "relation": "CAUSES",
+    "object": "Vertrauen"
+  },
+  {
+    "subject": "Treue",
+    "relation": "OPPOSES",
+    "object": "Verrat"
+  },
+  {
+    "subject": "Treue",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Treue",
+    "relation": "LEADSTO",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Verrat",
+    "relation": "CAUSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Verrat",
+    "relation": "OPPOSES",
+    "object": "Treue"
+  },
+  {
+    "subject": "Verrat",
+    "relation": "LEADSTO",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Verrat",
+    "relation": "NEEDS",
+    "object": "Vergebung"
+  },
+  {
+    "subject": "Trost",
+    "relation": "CAUSES",
+    "object": "Heilung"
+  },
+  {
+    "subject": "Trost",
+    "relation": "NEEDS",
+    "object": "Nähe"
+  },
+  {
+    "subject": "Trost",
+    "relation": "OPPOSES",
+    "object": "Einsamkeit"
+  },
+  {
+    "subject": "Trost",
+    "relation": "HAS",
+    "object": "Wärme"
+  },
+  {
+    "subject": "Trost",
+    "relation": "LEADSTO",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Wunder",
+    "relation": "CAUSES",
+    "object": "Staunen"
+  },
+  {
+    "subject": "Wunder",
+    "relation": "OPPOSES",
+    "object": "Logik"
+  },
+  {
+    "subject": "Wunder",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Wunder",
+    "relation": "NEEDS",
+    "object": "Glaube"
+  },
+  {
+    "subject": "Leere",
+    "relation": "OPPOSES",
+    "object": "Sinn"
+  },
+  {
+    "subject": "Leere",
+    "relation": "CAUSES",
+    "object": "Sehnsucht"
+  },
+  {
+    "subject": "Leere",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Leere",
+    "relation": "LEADSTO",
+    "object": "Erneuerung"
+  },
+  {
+    "subject": "Ordnung",
+    "relation": "CAUSES",
+    "object": "Ruhe"
+  },
+  {
+    "subject": "Ordnung",
+    "relation": "HAS",
+    "object": "Schönheit"
+  },
+  {
+    "subject": "Chaos",
+    "relation": "OPPOSES",
+    "object": "Ordnung"
+  },
+  {
+    "subject": "Chaos",
+    "relation": "CAUSES",
+    "object": "Kreativität"
+  },
+  {
+    "subject": "Chaos",
+    "relation": "LEADSTO",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Chaos",
+    "relation": "HAS",
+    "object": "Energie"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "CAUSES",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "OPPOSES",
+    "object": "Schmerz"
+  },
+  {
+    "subject": "Heilung",
+    "relation": "LEADSTO",
+    "object": "Wachstum"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "CAUSES",
+    "object": "Angst"
+  },
+  {
+    "subject": "Wandel",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Verantwortung",
+    "relation": "CAUSES",
+    "object": "Reife"
+  },
+  {
+    "subject": "Verantwortung",
+    "relation": "LEADSTO",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Empathie",
+    "relation": "CAUSES",
+    "object": "Verbundenheit"
+  },
+  {
+    "subject": "Empathie",
+    "relation": "NEEDS",
+    "object": "Offenheit"
+  },
+  {
+    "subject": "Empathie",
+    "relation": "OPPOSES",
+    "object": "Gleichgültigkeit"
+  },
+  {
+    "subject": "Empathie",
+    "relation": "LEADSTO",
+    "object": "Verständigung"
+  },
+  {
+    "subject": "Empathie",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Demut",
+    "relation": "CAUSES",
+    "object": "Weisheit"
+  },
+  {
+    "subject": "Demut",
+    "relation": "NEEDS",
+    "object": "Erfahrung"
+  },
+  {
+    "subject": "Demut",
+    "relation": "OPPOSES",
+    "object": "Stolz"
+  },
+  {
+    "subject": "Demut",
+    "relation": "LEADSTO",
+    "object": "Frieden"
+  },
+  {
+    "subject": "Demut",
+    "relation": "HAS",
+    "object": "Stärke"
+  },
+  {
+    "subject": "Wille",
+    "relation": "CAUSES",
+    "object": "Veränderung"
+  },
+  {
+    "subject": "Wille",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Wille",
+    "relation": "LEADSTO",
+    "object": "Freiheit"
+  },
+  {
+    "subject": "Wille",
+    "relation": "HAS",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "NEEDS",
+    "object": "Demut"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "LEADSTO",
+    "object": "Kraft"
+  },
+  {
+    "subject": "Glaube",
+    "relation": "HAS",
+    "object": "Tiefe"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "OPPOSES",
+    "object": "Glaube"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "CAUSES",
+    "object": "Erkenntnis"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "NEEDS",
+    "object": "Mut"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "LEADSTO",
+    "object": "Wahrheit"
+  },
+  {
+    "subject": "Zweifel",
+    "relation": "HAS",
+    "object": "Kraft"
+  }
+]

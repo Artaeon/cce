@@ -1,0 +1,1876 @@
+[
+    {
+        "word": "Zahl",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "schlecht",
+            "gut",
+            "Ergebnis",
+            "Trend",
+            "Quartal"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Zahlen",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "schlecht",
+            "gut",
+            "Ergebnis",
+            "Trend"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Ergebnis",
+        "syllables": 3,
+        "valence": 0.0,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "gut",
+            "schlecht",
+            "Quartal",
+            "Zahl"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Trend",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "positiv",
+            "drehen",
+            "Wachstum",
+            "Zahlen"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Wachstum",
+        "syllables": 2,
+        "valence": 0.7,
+        "arousal": 0.5,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Trend",
+            "stark",
+            "Markt"
+        ],
+        "repels": [
+            "Rückgang",
+            "Verlust"
+        ]
+    },
+    {
+        "word": "Rückgang",
+        "syllables": 2,
+        "valence": -0.6,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "stark",
+            "Zahlen",
+            "Ergebnis"
+        ],
+        "repels": [
+            "Wachstum"
+        ]
+    },
+    {
+        "word": "Verlust",
+        "syllables": 2,
+        "valence": -0.7,
+        "arousal": 0.5,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Quartal",
+            "Ergebnis"
+        ],
+        "repels": [
+            "Gewinn"
+        ]
+    },
+    {
+        "word": "Gewinn",
+        "syllables": 2,
+        "valence": 0.7,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Quartal",
+            "Ergebnis",
+            "stark"
+        ],
+        "repels": [
+            "Verlust"
+        ]
+    },
+    {
+        "word": "Quartal",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.7,
+        "pos": "NOUN",
+        "bonds": [
+            "Ergebnis",
+            "Zahlen",
+            "Trend"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Markt",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "stark",
+            "Trend",
+            "Wachstum"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Unternehmer",
+        "syllables": 4,
+        "valence": 0.3,
+        "arousal": 0.5,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Einsamkeit",
+            "Idee",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Einsamkeit",
+        "syllables": 3,
+        "valence": -0.6,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Unternehmer",
+            "Leere",
+            "Mensch"
+        ],
+        "repels": [
+            "Fülle"
+        ]
+    },
+    {
+        "word": "Leere",
+        "syllables": 2,
+        "valence": -0.7,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Einsamkeit",
+            "Stille"
+        ],
+        "repels": [
+            "Fülle",
+            "Überfülle"
+        ]
+    },
+    {
+        "word": "Fülle",
+        "syllables": 2,
+        "valence": 0.5,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Idee",
+            "Überfülle"
+        ],
+        "repels": [
+            "Leere",
+            "Mangel"
+        ]
+    },
+    {
+        "word": "Überfülle",
+        "syllables": 4,
+        "valence": 0.2,
+        "arousal": 0.6,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Einsamkeit",
+            "Idee",
+            "Fülle"
+        ],
+        "repels": [
+            "Leere"
+        ]
+    },
+    {
+        "word": "Idee",
+        "syllables": 2,
+        "valence": 0.6,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Mensch",
+            "Unternehmer",
+            "verstehen"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Mensch",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "verstehen",
+            "Idee",
+            "Einsamkeit"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Menschen",
+        "syllables": 2,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "verstehen",
+            "Idee"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Stille",
+        "syllables": 2,
+        "valence": -0.2,
+        "arousal": 0.1,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Leere",
+            "Nacht"
+        ],
+        "repels": [
+            "Lärm"
+        ]
+    },
+    {
+        "word": "Kraft",
+        "syllables": 1,
+        "valence": 0.6,
+        "arousal": 0.7,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "stark",
+            "Mut",
+            "Wille"
+        ],
+        "repels": [
+            "Schwäche"
+        ]
+    },
+    {
+        "word": "Mut",
+        "syllables": 1,
+        "valence": 0.7,
+        "arousal": 0.7,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "Wille",
+            "stark"
+        ],
+        "repels": [
+            "Angst"
+        ]
+    },
+    {
+        "word": "Angst",
+        "syllables": 1,
+        "valence": -0.7,
+        "arousal": 0.8,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Mut",
+            "Zweifel"
+        ],
+        "repels": [
+            "Mut",
+            "Kraft"
+        ]
+    },
+    {
+        "word": "Zweifel",
+        "syllables": 2,
+        "valence": -0.4,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Angst",
+            "Frage"
+        ],
+        "repels": [
+            "Sicherheit"
+        ]
+    },
+    {
+        "word": "Hoffnung",
+        "syllables": 2,
+        "valence": 0.7,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "Zukunft",
+            "Licht"
+        ],
+        "repels": [
+            "Zweifel",
+            "Angst"
+        ]
+    },
+    {
+        "word": "Zukunft",
+        "syllables": 2,
+        "valence": 0.4,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Hoffnung",
+            "Wandel",
+            "Trend"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Wandel",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.5,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Zukunft",
+            "Chance"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Chance",
+        "syllables": 2,
+        "valence": 0.6,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Risiko",
+            "Wandel",
+            "Zukunft"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Risiko",
+        "syllables": 3,
+        "valence": -0.3,
+        "arousal": 0.6,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Chance",
+            "Angst"
+        ],
+        "repels": [
+            "Sicherheit"
+        ]
+    },
+    {
+        "word": "Wille",
+        "syllables": 2,
+        "valence": 0.5,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "Mut"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Wahrheit",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "ehrlich",
+            "klar"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Frage",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Antwort",
+            "Zweifel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Antwort",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Frage",
+            "klar"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Weg",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "finden",
+            "lang",
+            "Ziel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Ziel",
+        "syllables": 1,
+        "valence": 0.5,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Weg",
+            "erreichen"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Welt",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Mensch",
+            "Wandel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Zeit",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "lang",
+            "kurz",
+            "Wandel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Licht",
+        "syllables": 1,
+        "valence": 0.6,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Hoffnung",
+            "Dunkelheit"
+        ],
+        "repels": [
+            "Dunkelheit"
+        ]
+    },
+    {
+        "word": "Dunkelheit",
+        "syllables": 3,
+        "valence": -0.5,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Nacht",
+            "Angst",
+            "Licht"
+        ],
+        "repels": [
+            "Licht"
+        ]
+    },
+    {
+        "word": "Nacht",
+        "syllables": 1,
+        "valence": -0.3,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Stille",
+            "Dunkelheit"
+        ],
+        "repels": [
+            "Tag"
+        ]
+    },
+    {
+        "word": "Tag",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Licht",
+            "Arbeit"
+        ],
+        "repels": [
+            "Nacht"
+        ]
+    },
+    {
+        "word": "Arbeit",
+        "syllables": 2,
+        "valence": 0.1,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "Ergebnis"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Stimme",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Mensch",
+            "klar"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Gedanke",
+        "syllables": 3,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Idee",
+            "tief",
+            "klar"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Wort",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Stimme",
+            "Sprache"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Sprache",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Wort",
+            "Stimme",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Herz",
+        "syllables": 1,
+        "valence": 0.5,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Mut",
+            "Kraft",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Traum",
+        "syllables": 1,
+        "valence": 0.5,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Hoffnung",
+            "Nacht",
+            "Idee"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Schmerz",
+        "syllables": 1,
+        "valence": -0.7,
+        "arousal": 0.7,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "Mut",
+            "Angst"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Mangel",
+        "syllables": 2,
+        "valence": -0.5,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Leere",
+            "Rückgang"
+        ],
+        "repels": [
+            "Fülle"
+        ]
+    },
+    {
+        "word": "Bedeutung",
+        "syllables": 3,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Wort",
+            "tief",
+            "Sinn"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Sinn",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Bedeutung",
+            "Ziel",
+            "tief"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Erfolg",
+        "syllables": 2,
+        "valence": 0.8,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Arbeit",
+            "Ziel",
+            "Ergebnis"
+        ],
+        "repels": [
+            "Verlust"
+        ]
+    },
+    {
+        "word": "Problem",
+        "syllables": 2,
+        "valence": -0.4,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Lösung",
+            "Frage"
+        ],
+        "repels": [
+            "Lösung"
+        ]
+    },
+    {
+        "word": "Lösung",
+        "syllables": 2,
+        "valence": 0.5,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Problem",
+            "Antwort"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Fehler",
+        "syllables": 2,
+        "valence": -0.5,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "lernen",
+            "Ergebnis"
+        ],
+        "repels": [
+            "Erfolg"
+        ]
+    },
+    {
+        "word": "Vertrauen",
+        "syllables": 3,
+        "valence": 0.6,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Mensch",
+            "Kraft",
+            "Mut"
+        ],
+        "repels": [
+            "Angst",
+            "Zweifel"
+        ]
+    },
+    {
+        "word": "Wahrheit",
+        "syllables": 2,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "klar",
+            "ehrlich"
+        ],
+        "repels": []
+    },
+    {
+        "word": "Struktur",
+        "syllables": 2,
+        "valence": 0.1,
+        "arousal": 0.3,
+        "register": 0.7,
+        "pos": "NOUN",
+        "bonds": [
+            "klar",
+            "Ordnung"
+        ],
+        "repels": [
+            "Chaos"
+        ]
+    },
+    {
+        "word": "Ordnung",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.2,
+        "register": 0.6,
+        "pos": "NOUN",
+        "bonds": [
+            "Struktur",
+            "klar"
+        ],
+        "repels": [
+            "Chaos"
+        ]
+    },
+    {
+        "word": "Chaos",
+        "syllables": 2,
+        "valence": -0.3,
+        "arousal": 0.7,
+        "register": 0.4,
+        "pos": "NOUN",
+        "bonds": [
+            "Wandel",
+            "Angst"
+        ],
+        "repels": [
+            "Ordnung"
+        ]
+    },
+    {
+        "word": "Energie",
+        "syllables": 4,
+        "valence": 0.5,
+        "arousal": 0.7,
+        "register": 0.5,
+        "pos": "NOUN",
+        "bonds": [
+            "Kraft",
+            "stark"
+        ],
+        "repels": []
+    },
+    {
+        "word": "gut",
+        "syllables": 1,
+        "valence": 0.6,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Ergebnis",
+            "Zahlen",
+            "Trend"
+        ],
+        "repels": [
+            "schlecht"
+        ]
+    },
+    {
+        "word": "schlecht",
+        "syllables": 1,
+        "valence": -0.6,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Zahlen",
+            "Ergebnis"
+        ],
+        "repels": [
+            "gut"
+        ]
+    },
+    {
+        "word": "stark",
+        "syllables": 1,
+        "valence": 0.5,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Kraft",
+            "Wachstum",
+            "Trend"
+        ],
+        "repels": [
+            "schwach"
+        ]
+    },
+    {
+        "word": "schwach",
+        "syllables": 1,
+        "valence": -0.4,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Rückgang"
+        ],
+        "repels": [
+            "stark"
+        ]
+    },
+    {
+        "word": "klar",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Wahrheit",
+            "Struktur",
+            "Antwort"
+        ],
+        "repels": []
+    },
+    {
+        "word": "tief",
+        "syllables": 1,
+        "valence": -0.1,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Bedeutung",
+            "Gedanke",
+            "Sinn"
+        ],
+        "repels": []
+    },
+    {
+        "word": "lang",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Weg",
+            "Zeit"
+        ],
+        "repels": [
+            "kurz"
+        ]
+    },
+    {
+        "word": "kurz",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Zeit"
+        ],
+        "repels": [
+            "lang"
+        ]
+    },
+    {
+        "word": "neu",
+        "syllables": 1,
+        "valence": 0.4,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Anfang",
+            "Wandel",
+            "Idee"
+        ],
+        "repels": [
+            "alt"
+        ]
+    },
+    {
+        "word": "alt",
+        "syllables": 1,
+        "valence": -0.1,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [],
+        "repels": [
+            "neu"
+        ]
+    },
+    {
+        "word": "groß",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Chance",
+            "Risiko"
+        ],
+        "repels": [
+            "klein"
+        ]
+    },
+    {
+        "word": "klein",
+        "syllables": 1,
+        "valence": -0.1,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [],
+        "repels": [
+            "groß"
+        ]
+    },
+    {
+        "word": "schnell",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Wandel",
+            "Wachstum"
+        ],
+        "repels": [
+            "langsam"
+        ]
+    },
+    {
+        "word": "langsam",
+        "syllables": 2,
+        "valence": -0.1,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Rückgang"
+        ],
+        "repels": [
+            "schnell"
+        ]
+    },
+    {
+        "word": "hart",
+        "syllables": 1,
+        "valence": -0.2,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Arbeit",
+            "Kraft"
+        ],
+        "repels": [
+            "weich"
+        ]
+    },
+    {
+        "word": "ehrlich",
+        "syllables": 2,
+        "valence": 0.4,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Wahrheit",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "leer",
+        "syllables": 1,
+        "valence": -0.5,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Leere",
+            "Stille"
+        ],
+        "repels": [
+            "voll"
+        ]
+    },
+    {
+        "word": "voll",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.3,
+        "pos": "ADJ",
+        "bonds": [
+            "Fülle",
+            "Energie"
+        ],
+        "repels": [
+            "leer"
+        ]
+    },
+    {
+        "word": "positiv",
+        "syllables": 3,
+        "valence": 0.7,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Trend",
+            "Ergebnis",
+            "Wachstum"
+        ],
+        "repels": [
+            "negativ"
+        ]
+    },
+    {
+        "word": "negativ",
+        "syllables": 3,
+        "valence": -0.6,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Ergebnis",
+            "Trend"
+        ],
+        "repels": [
+            "positiv"
+        ]
+    },
+    {
+        "word": "mutig",
+        "syllables": 2,
+        "valence": 0.6,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Mut",
+            "Kraft",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "einsam",
+        "syllables": 2,
+        "valence": -0.5,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Einsamkeit",
+            "Mensch",
+            "Stille"
+        ],
+        "repels": []
+    },
+    {
+        "word": "frei",
+        "syllables": 1,
+        "valence": 0.6,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Kraft",
+            "Wille"
+        ],
+        "repels": []
+    },
+    {
+        "word": "dunkel",
+        "syllables": 2,
+        "valence": -0.4,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Nacht",
+            "Dunkelheit",
+            "Angst"
+        ],
+        "repels": [
+            "hell"
+        ]
+    },
+    {
+        "word": "hell",
+        "syllables": 1,
+        "valence": 0.4,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "ADJ",
+        "bonds": [
+            "Licht",
+            "Tag"
+        ],
+        "repels": [
+            "dunkel"
+        ]
+    },
+    {
+        "word": "lebendig",
+        "syllables": 3,
+        "valence": 0.6,
+        "arousal": 0.6,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Kraft",
+            "Energie"
+        ],
+        "repels": []
+    },
+    {
+        "word": "bitter",
+        "syllables": 2,
+        "valence": -0.5,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Wahrheit",
+            "Schmerz"
+        ],
+        "repels": []
+    },
+    {
+        "word": "wahr",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "ADJ",
+        "bonds": [
+            "Wahrheit",
+            "ehrlich"
+        ],
+        "repels": []
+    },
+    {
+        "word": "ist",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.1,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "sind",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.1,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "hat",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "wird",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Zukunft",
+            "Wandel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "war",
+        "syllables": 1,
+        "valence": -0.1,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Zeit"
+        ],
+        "repels": []
+    },
+    {
+        "word": "bleibt",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "stark",
+            "klar"
+        ],
+        "repels": []
+    },
+    {
+        "word": "fehlt",
+        "syllables": 1,
+        "valence": -0.4,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Mangel",
+            "Leere"
+        ],
+        "repels": []
+    },
+    {
+        "word": "wächst",
+        "syllables": 1,
+        "valence": 0.5,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Wachstum",
+            "Trend",
+            "stark"
+        ],
+        "repels": [
+            "sinkt"
+        ]
+    },
+    {
+        "word": "sinkt",
+        "syllables": 1,
+        "valence": -0.5,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Rückgang",
+            "Zahlen"
+        ],
+        "repels": [
+            "wächst"
+        ]
+    },
+    {
+        "word": "dreht",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Trend",
+            "Wandel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "bricht",
+        "syllables": 1,
+        "valence": -0.3,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Kraft",
+            "Wandel"
+        ],
+        "repels": []
+    },
+    {
+        "word": "brennt",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.8,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Kraft",
+            "Energie"
+        ],
+        "repels": []
+    },
+    {
+        "word": "sucht",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Weg",
+            "Antwort",
+            "Sinn"
+        ],
+        "repels": []
+    },
+    {
+        "word": "findet",
+        "syllables": 2,
+        "valence": 0.4,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Weg",
+            "Antwort",
+            "Lösung"
+        ],
+        "repels": []
+    },
+    {
+        "word": "verstehen",
+        "syllables": 3,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Mensch",
+            "Idee",
+            "Bedeutung"
+        ],
+        "repels": []
+    },
+    {
+        "word": "braucht",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Kraft",
+            "Mut",
+            "Zeit"
+        ],
+        "repels": []
+    },
+    {
+        "word": "zeigt",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "klar",
+            "Ergebnis",
+            "Wahrheit"
+        ],
+        "repels": []
+    },
+    {
+        "word": "kennt",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Mensch",
+            "Wahrheit"
+        ],
+        "repels": []
+    },
+    {
+        "word": "trägt",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Kraft",
+            "Mensch"
+        ],
+        "repels": []
+    },
+    {
+        "word": "fällt",
+        "syllables": 1,
+        "valence": -0.3,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Rückgang",
+            "hart"
+        ],
+        "repels": []
+    },
+    {
+        "word": "steigt",
+        "syllables": 1,
+        "valence": 0.4,
+        "arousal": 0.5,
+        "register": 0.5,
+        "pos": "VERB",
+        "bonds": [
+            "Wachstum",
+            "Trend"
+        ],
+        "repels": [
+            "fällt"
+        ]
+    },
+    {
+        "word": "lernt",
+        "syllables": 1,
+        "valence": 0.3,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Fehler",
+            "Ergebnis"
+        ],
+        "repels": []
+    },
+    {
+        "word": "lebt",
+        "syllables": 1,
+        "valence": 0.4,
+        "arousal": 0.5,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Mensch",
+            "Kraft"
+        ],
+        "repels": []
+    },
+    {
+        "word": "stirbt",
+        "syllables": 1,
+        "valence": -0.8,
+        "arousal": 0.6,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Hoffnung",
+            "Traum"
+        ],
+        "repels": [
+            "lebt"
+        ]
+    },
+    {
+        "word": "kämpft",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.8,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Kraft",
+            "Mut",
+            "Wille"
+        ],
+        "repels": []
+    },
+    {
+        "word": "wartet",
+        "syllables": 2,
+        "valence": -0.1,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "VERB",
+        "bonds": [
+            "Zeit",
+            "Hoffnung"
+        ],
+        "repels": []
+    },
+    {
+        "word": "nicht",
+        "syllables": 1,
+        "valence": -0.2,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "PART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "kein",
+        "syllables": 1,
+        "valence": -0.3,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "PART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "keine",
+        "syllables": 2,
+        "valence": -0.3,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "PART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "zu",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "PART",
+        "bonds": [
+            "viel",
+            "wenig"
+        ],
+        "repels": []
+    },
+    {
+        "word": "sehr",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.4,
+        "register": 0.5,
+        "pos": "PART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "viel",
+        "syllables": 1,
+        "valence": 0.2,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "PART",
+        "bonds": [
+            "zu",
+            "Fülle"
+        ],
+        "repels": [
+            "wenig"
+        ]
+    },
+    {
+        "word": "viele",
+        "syllables": 2,
+        "valence": 0.2,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "PART",
+        "bonds": [
+            "zu",
+            "Fülle"
+        ],
+        "repels": [
+            "wenig"
+        ]
+    },
+    {
+        "word": "wenig",
+        "syllables": 2,
+        "valence": -0.2,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "PART",
+        "bonds": [
+            "zu",
+            "Mangel"
+        ],
+        "repels": [
+            "viel"
+        ]
+    },
+    {
+        "word": "und",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.1,
+        "register": 0.5,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "aber",
+        "syllables": 2,
+        "valence": -0.1,
+        "arousal": 0.3,
+        "register": 0.4,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "doch",
+        "syllables": 1,
+        "valence": 0.1,
+        "arousal": 0.4,
+        "register": 0.4,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "sondern",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.3,
+        "register": 0.5,
+        "pos": "CONJ",
+        "bonds": [
+            "nicht"
+        ],
+        "repels": []
+    },
+    {
+        "word": "weil",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "also",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "denn",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.5,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "oder",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.2,
+        "register": 0.4,
+        "pos": "CONJ",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "die",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "der",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "das",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "ein",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "eine",
+        "syllables": 2,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    },
+    {
+        "word": "es",
+        "syllables": 1,
+        "valence": 0.0,
+        "arousal": 0.0,
+        "register": 0.5,
+        "pos": "ART",
+        "bonds": [],
+        "repels": []
+    }
+]
