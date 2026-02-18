@@ -3,19 +3,28 @@
 </h1>
 
 <p align="center">
-  <em>Konzeptbasierte Textkomposition durch Phasenübergänge im Konzeptraum.</em><br>
-  <em>Ohne neuronale Netze. Ohne GPU. Ohne Halluzinationen.</em>
+  <strong>Deterministic Text Composition via Phase Transitions in Concept Space</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10+-blue?style=flat-square" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/GPU-nicht_benötigt-green?style=flat-square" alt="No GPU">
-  <img src="https://img.shields.io/badge/latenz-<10ms-orange?style=flat-square" alt="Latency">
-  <img src="https://img.shields.io/badge/relationen-996-purple?style=flat-square" alt="Relations">
-  <img src="https://img.shields.io/badge/lizenz-MIT-brightgreen?style=flat-square" alt="MIT License">
+  <img src="https://img.shields.io/badge/GPU-not_required-green?style=flat-square" alt="No GPU">
+  <img src="https://img.shields.io/badge/latency-<10ms-orange?style=flat-square" alt="Latency">
+  <img src="https://img.shields.io/badge/knowledge_graph-996_relations-purple?style=flat-square" alt="Relations">
+  <img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" alt="MIT License">
 </p>
 
 ---
+
+## Abstract
+
+CCE is a **deterministic text composition engine** that transforms abstract concepts into poetisch-philosophische German short-form prose — not through statistical token prediction, but through a physically-inspired crystallization process operating in a 10,000-dimensional hypervector space.
+
+The system requires **no neural networks, no GPU, and no API calls**. All outputs are fully reproducible given the same seed, traceable through every processing stage, and generated in under 10 ms on commodity hardware.
+
+> *Ist bedeutungsvolle Sprachgenerierung ohne statistische Modelle möglich?*
+>
+> — The founding question behind this project.
 
 ```
 » Stille — ein Wald — birgt Ruhe zwischen dichten Blättern.
@@ -27,65 +36,84 @@
 
 ---
 
-## Was ist CCE?
+## 1. Motivation
 
-CCE ist eine **deterministische Textkompositions-Engine**, die Konzepte in poetisch-philosophische deutsche Kurzformen verwandelt — nicht durch statistische Token-Vorhersage, sondern durch einen physikalisch inspirierten Kristallisationsprozess.
+Large Language Models (LLMs) achieve impressive fluency but rely on stochastic token sampling, external infrastructure, and opaque internal representations. CCE explores the opposite end of the design spectrum:
 
-Das Projekt entstand aus einer einfachen Frage: *Ist bedeutungsvolle Sprachgenerierung ohne statistische Modelle möglich?*
-
-### CCE vs. LLMs
-
-| Eigenschaft | LLM | CCE |
+| Property | LLM | CCE |
 |---|---|---|
-| Weiß, was es nicht weiß | ❌ Halluziniert | ✅ Schweigt ehrlich |
-| Weiß, wann es aufhören soll | ❌ Redet weiter | ✅ Apoptose |
-| Reproduzierbar | ❌ Stochastisch | ✅ Deterministisch bei gleichem Seed |
-| Latenz | 500ms–5s | **< 10ms** |
-| Abhängigkeiten | Cloud, GPU, API-Key | **numpy** |
+| Epistemic honesty | ❌ Halluziniert | ✅ Schweigt ehrlich |
+| Termination criterion | ❌ Redet weiter | ✅ Apoptose |
+| Reproducibility | ❌ Stochastisch | ✅ Deterministisch (same seed) |
+| Latency | 500 ms – 5 s | **< 10 ms** |
+| Dependencies | Cloud · GPU · API key | **numpy** |
 
 ---
 
-## Architektur
+## 2. Architecture
 
-CCE modelliert Sprache als physikalischen Phasenübergang in vier Stufen:
+CCE models language generation as a **physical phase transition** in four successive stages. Each stage maps to a well-defined computational module:
 
-```mermaid
-graph LR
-    A["🌊 Plasma<br/>Konzepte als Hochenergie-Partikel"] --> B["💎 Keimbildung<br/>Semantische Cluster formen Keime"]
-    B --> C["❄️ Kristallisation<br/>Keime wachsen zu Kristallstrukturen"]
-    C --> D["📝 Realisierung<br/>Kristalle werden zu deutschem Text"]
-
-    style A fill:#ff6b6b,stroke:#333,color:#fff
-    style B fill:#feca57,stroke:#333,color:#333
-    style C fill:#48dbfb,stroke:#333,color:#333
-    style D fill:#ff9ff3,stroke:#333,color:#333
+```
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│   🌊 PLASMA      │────▷│  💎 NUCLEATION   │────▷│ ❄️ CRYSTALLIZE   │────▷│ 📝 REALIZATION   │
+│                  │     │                  │     │                  │     │                  │
+│  Concepts as     │     │  Semantic        │     │  Seeds grow into │     │  Crystals are    │
+│  high-energy     │     │  clusters form   │     │  crystal         │     │  translated into │
+│  particles in    │     │  nucleation      │     │  structures with │     │  grammatically   │
+│  10,000-d space  │     │  seeds           │     │  defined shape   │     │  correct German  │
+└──────────────────┘     └──────────────────┘     └──────────────────┘     └──────────────────┘
+        plasma.py              nucleation.py          crystallization.py        realization.py
 ```
 
-| Phase | Beschreibung |
-|---|---|
-| **Plasma** | Eingabekonzepte werden in einen 10.000-dimensionalen Vektorraum projiziert (Hyperdimensional Computing). Temperatur bestimmt die Assoziationsweite. |
-| **Keimbildung** | Partikel mit semantischer Nähe bilden Keime. Ein Knowledge Graph mit 996 Relationen liefert die Bindungskräfte (`HAS`, `CAUSES`, `OPPOSES`, `NEEDS`, `LEADSTO`). |
-| **Kristallisation** | Keime wachsen zu Kristallen mit definierter Form (parallel, verschränkt, kaskadierend). Die Form bestimmt die spätere Satzstruktur. |
-| **Realisierung** | Kristalle werden in grammatisch korrektes Deutsch übersetzt. 18 Bildwelten liefern domänenspezifisches Vokabular für Metaphern als *Denkräume*. |
+### 2.1 Phase I — Plasma
+
+Input concepts are projected into a **10,000-dimensional vector space** using Hyperdimensional Computing (HDC). A temperature parameter governs the breadth of semantic association: high temperature activates distant analogies, low temperature constrains output to closely related concepts.
+
+### 2.2 Phase II — Nucleation
+
+Particles with high semantic proximity aggregate into **nucleation seeds**. Binding forces are supplied by a curated knowledge graph containing **996 relations** across five primary link types: `HAS`, `CAUSES`, `OPPOSES`, `NEEDS`, and `LEADSTO`.
+
+### 2.3 Phase III — Crystallization
+
+Seeds grow into crystal structures with a **defined morphology** — parallel, entangled, or cascading. Crystal geometry directly determines the syntactic template that will be used in the final text.
+
+### 2.4 Phase IV — Realization
+
+Crystals are translated into grammatically correct German text. A library of **18 Bildwelten** (image domains: ocean, fire, forest, storm, ice, night, …) provides domain-specific vocabulary. Metaphors operate as *Denkräume* — coherent conceptual spaces rather than surface-level decorations.
 
 ---
 
-## Quickstart
+## 3. Key Concepts
 
-### Installation
+**Metaphor as Denkraum.** Metaphors are not labels ("X is Y") but entire image-worlds in which the engine *thinks*. Selecting "Meer" (ocean) activates waves, depth, surf, currents — all output vocabulary remains within that conceptual domain.
+
+**Apoptosis.** Text generation terminates when the strongest rhetorical point has been made — not when source material is exhausted. Deliberate silence is a feature, not a deficiency.
+
+**Epistemic Honesty.** The engine does not hallucinate. When it lacks knowledge of a concept, it produces less output rather than fabricated content.
+
+**Evolvable Skin.** The physics layers (Plasma, Nucleation, Crystallization) have remained unchanged since v1. All improvements are applied in the Realization layer. Community contributions — new lexicon entries, image domains, templates — require no changes to the core pipeline.
+
+---
+
+## 4. Getting Started
+
+### 4.1 Installation
 
 ```bash
-git clone https://github.com/your-org/cce.git
+git clone https://github.com/Artaeon/cce.git
 cd cce
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
 ```
 
-### Interaktive CLI
+### 4.2 Interactive CLI
 
 ```bash
 python -m cce.cli
 ```
+
+The CLI accepts natural German input. The parser automatically extracts intent, emotion, and context:
 
 ```
 CCE ▸ Was ist Liebe?
@@ -97,10 +125,6 @@ CCE ▸ Was ist Liebe?
   ⏱  5.8ms  |  📊 841 Wörter  |  ✅ 996 Relationen
 ```
 
-### Natürliche Eingabe
-
-Die CLI versteht natürliches Deutsch. Der Parser extrahiert Intent, Emotion und Kontext automatisch:
-
 ```
 CCE ▸ Erzähl mir etwas Trauriges über Einsamkeit
 CCE ▸ Was bedeutet Freiheit?
@@ -108,27 +132,25 @@ CCE ▸ /emotion dunkel
 CCE ▸ /intent Krieg
 ```
 
-### Programmatische API
+### 4.3 Programmatic API
 
 ```python
 from cce.engine import CognitiveCrystallizationEngine
 
 engine = CognitiveCrystallizationEngine()
 
-# Neutral
 output = engine.generate(intent="Stille", emotion="neutral")
 # → Stille — ein Wald — birgt Ruhe zwischen dichten Blättern.
 #   Doch in seinem Schatten lauert Dunkelheit.
 #   Und darin zeigt sich: Aus Stille entsteht Erkenntnis.
 
-# Stimmungsvariation
 output = engine.generate(intent="Liebe Schmerz", emotion="dunkel")
 # → Liebe weckt Schmerz. Und gerade deshalb: sie verlangt Mut.
 ```
 
 ---
 
-## Beispiel-Outputs
+## 5. Sample Outputs
 
 ```
 Stille
@@ -146,7 +168,7 @@ Krieg
   Und so bringt er kalte Zerstörung hervor.
 ```
 
-### Interaktiver Dialog
+### Multi-Turn Dialogue
 
 ```
 CCE ▸ Kennst du Angst?
@@ -159,80 +181,68 @@ CCE ▸ Und was ist das Gegenteil?
 
 ---
 
-## Technische Daten
+## 6. Technical Specifications
 
-| Metrik | Wert |
+| Metric | Value |
 |---|---|
-| Quelltext | ~5.800 Zeilen Python |
-| Module | 16 |
-| Knowledge Graph | 996 Relationen |
-| Lexikon | 841 Wörter |
-| Bildwelten | 18 (Meer, Feuer, Wald, Sturm, Eis, Nacht…) |
-| Metapher-Templates | 5 Strukturvarianten |
-| HDC-Dimension | 10.000 |
-| Median-Latenz | < 10ms (CPU) |
-| Abhängigkeiten | numpy |
-| GPU | Nicht benötigt |
-| API-Calls | 0 |
-| Trainingskosten | 0 € |
+| Source code | ~5,800 lines Python |
+| Modules | 16 |
+| Knowledge graph | 996 relations |
+| Lexicon | 841 words |
+| Image domains (Bildwelten) | 18 |
+| Metaphor templates | 5 structural variants |
+| HDC dimensionality | 10,000 |
+| Median latency | < 10 ms (CPU) |
+| Runtime dependencies | numpy |
+| GPU required | No |
+| External API calls | 0 |
+| Training cost | € 0 |
 
 ---
 
-## Kernideen
-
-**Metapher als Denkraum** — Metaphern sind keine Etiketten ("X ist Y"), sondern Bildwelten in denen die Engine *denkt*. "Meer" aktiviert Wellen, Tiefe, Brandung, Strömung — das gesamte Vokabular bleibt im Bild.
-
-**Apoptose** — Der Text endet wenn der stärkste Punkt gemacht ist, nicht wenn das Material erschöpft ist. Bewusstes Schweigen ist eine Fähigkeit, kein Mangel.
-
-**Ehrliches Nichtwissen** — Die Engine halluziniert nicht. Wenn sie ein Konzept nicht kennt, produziert sie weniger Output statt falschen.
-
-**Evolvierbare Haut** — Die Physikschichten (Plasma, Keimbildung, Kristallisation) sind seit v1 unverändert. Jede Verbesserung geschieht in der Realisierungsschicht. Community-Beiträge — neue Lexikon-Einträge, Bildwelten, Templates — erfordern keine Änderungen am Kern.
-
----
-
-## Projektstruktur
+## 7. Project Structure
 
 ```
 cce/
-├── engine.py          # Orchestrierung der 4 Phasen
-├── plasma.py          # HDC-Vektorraum + Temperatur
-├── particle.py        # Partikel-Repräsentation
-├── nucleation.py      # Keimbildung aus Partikel-Clustern
-├── crystallization.py # Kristallwachstum + Formbestimmung
-├── realization.py     # Kristall → deutscher Text
-├── metaphor.py        # 18 Bildwelten + 5 Templates
-├── knowledge.py       # Knowledge Graph (996 Relationen)
-├── lexicon.py         # Resonanzlexikon (841 Wörter)
-├── grammar.py         # Deutsche Grammatik-Engine
-├── memory.py          # Working Memory + Vermeidung
-├── parser.py          # NL-Eingabeparser
-├── codebook.py        # HDC Codebook-Vektoren
-├── templates.py       # Satzstruktur-Templates
-├── cli.py             # Interaktive CLI
+├── engine.py          # Pipeline orchestration (4 phases)
+├── plasma.py          # HDC vector space + temperature
+├── particle.py        # Particle representation
+├── nucleation.py      # Seed formation from particle clusters
+├── crystallization.py # Crystal growth + morphology
+├── realization.py     # Crystal → German text
+├── metaphor.py        # 18 Bildwelten + 5 templates
+├── knowledge.py       # Knowledge graph (996 relations)
+├── lexicon.py         # Resonance lexicon (841 words)
+├── grammar.py         # German grammar engine
+├── memory.py          # Working memory + avoidance
+├── parser.py          # Natural-language input parser
+├── codebook.py        # HDC codebook vectors
+├── templates.py       # Sentence structure templates
+├── cli.py             # Interactive CLI
 └── __init__.py
 ```
 
 ---
 
-## Grenzen
+## 8. Scope & Limitations
 
-CCE ist kein Allzweck-Sprachmodell. Die Engine deckt ein **philosophisch-poetisches Terrain** ab — abstrakte Konzepte wie Liebe, Freiheit, Stille, Krieg. Sie ersetzt kein LLM für Alltagsfragen, Codegeneration oder Faktenwissen. Sie generiert ausschließlich Deutsch.
+CCE is not a general-purpose language model. The engine covers a **philosophical-poetic domain** — abstract concepts such as love, freedom, silence, and war. It does not replace LLMs for everyday questions, code generation, or factual retrieval. All output is generated exclusively in German.
 
-> Was sie nicht kann, tut sie nicht. Das ist Absicht.
+> What it cannot do, it does not attempt. This is by design.
 
 ---
 
-## Beitragen
+## 9. Contributing
 
-Neue Bildwelten, Lexikon-Einträge und Knowledge-Graph-Relationen sind willkommen. Die Physikschichten (Plasma, Keimbildung, Kristallisation) müssen dafür nicht verändert werden — alles Sprachliche lebt in der Realisierungsschicht.
+New Bildwelten, lexicon entries, and knowledge-graph relations are welcome. The physics layers (Plasma, Nucleation, Crystallization) require no modification — all linguistic evolution happens in the Realization layer.
 
-## Lizenz
+## License
 
 MIT
 
 ---
 
 <p align="center">
-  <em>Gebaut ohne ein einziges neuronales Netz.<br>
-  Jeder Satz ist nachvollziehbar, reproduzierbar, und erklärt sich selbst.</em>
+  <em>Built without a single neural network.<br>
+  Every sentence is traceable, reproducible, and self-explanatory.</em>
 </p>
